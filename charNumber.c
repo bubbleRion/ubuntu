@@ -8,4 +8,5 @@ int main(){
     printf("input A character : \n");
     scanf("%c" , &ch3);
     printf("c = %c , d = %d" , ch3 , ch3);
+    return 1;
 }
