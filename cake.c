@@ -2,17 +2,11 @@
 void hello();
 
 int main(){
-    hello();
-    int hellomyfriend = 39;
-    float hello = 1.4;
-    char world = 'A';
-    char* friend = "hello , world!";
-    char my;
-    printf("%f\n" , hello);
-    scanf("%c" , &my);
-    printf("%c\n" , world);
-    printf("%s\n" , friend);
-    return 1;
+    int a;
+    int len_a = sizeof(a);
+    printf("%d , %d\n" , a , len_a);
+    
+
 }
 
 void hello(){

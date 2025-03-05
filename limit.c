@@ -12,9 +12,9 @@ int main(void)
     printf("INT_MIN : %d \t, %d\n", INT_MIN , INT_MAX);
     printf("LONG_MIN : %ld \t, %ld\n", LONG_MIN , LONG_MAX);
 
-    printf("INT_MIN +2 %d\n", INT_MAX  + 2);
+    printf("INT_MIN +2 %d\n", INT_MAX);
 
-    
+
     return 0;
 }
 
