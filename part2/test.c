@@ -1,10 +1,12 @@
-#include <stdbool.h>
 #include <stdio.h>
-int main(void)
+
+int main()
 {
+    unsigned int a = 1;
+
     int num;
     printf("숫자를 넣으세요: ");
-    scanf("%d", &num);
+    scanf("d", &num);
     if (num < 0)
     {
         num = -num;
