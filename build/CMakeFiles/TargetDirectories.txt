@@ -1,0 +1,3 @@
+/home/ghfjdhdl/Desktop/korea/ubuntu/build/CMakeFiles/opensse-schemes.dir
+/home/ghfjdhdl/Desktop/korea/ubuntu/build/CMakeFiles/edit_cache.dir
+/home/ghfjdhdl/Desktop/korea/ubuntu/build/CMakeFiles/rebuild_cache.dir

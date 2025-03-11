@@ -1,7 +1,8 @@
 {
   "files.associations": {
     "stdio.h": "c",
-    "time.h": "c"
+    "time.h": "c",
+    "serial.h": "c"
   },
   "cmake.sourceDirectory": "/home/ghfjdhdl/Desktop/korea/ubuntu/part3"
 }

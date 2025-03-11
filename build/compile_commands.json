@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/ghfjdhdl/Desktop/korea/ubuntu/build",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc   -g -o CMakeFiles/opensse-schemes.dir/bubbleSort.c.o -c /home/ghfjdhdl/Desktop/korea/ubuntu/part3/bubbleSort.c",
+  "file": "/home/ghfjdhdl/Desktop/korea/ubuntu/part3/bubbleSort.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/korea/ubuntu/build",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc   -g -o CMakeFiles/opensse-schemes.dir/qsort.c.o -c /home/ghfjdhdl/Desktop/korea/ubuntu/part3/qsort.c",
+  "file": "/home/ghfjdhdl/Desktop/korea/ubuntu/part3/qsort.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/korea/ubuntu/build",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc   -g -o CMakeFiles/opensse-schemes.dir/sort.c.o -c /home/ghfjdhdl/Desktop/korea/ubuntu/part3/sort.c",
+  "file": "/home/ghfjdhdl/Desktop/korea/ubuntu/part3/sort.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/korea/ubuntu/build",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc   -g -o CMakeFiles/opensse-schemes.dir/swap.c.o -c /home/ghfjdhdl/Desktop/korea/ubuntu/part3/swap.c",
+  "file": "/home/ghfjdhdl/Desktop/korea/ubuntu/part3/swap.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/korea/ubuntu/build",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc   -g -o CMakeFiles/opensse-schemes.dir/pointer.c.o -c /home/ghfjdhdl/Desktop/korea/ubuntu/part3/pointer.c",
+  "file": "/home/ghfjdhdl/Desktop/korea/ubuntu/part3/pointer.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/korea/ubuntu/build",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc   -g -o CMakeFiles/opensse-schemes.dir/pointer2.c.o -c /home/ghfjdhdl/Desktop/korea/ubuntu/part3/pointer2.c",
+  "file": "/home/ghfjdhdl/Desktop/korea/ubuntu/part3/pointer2.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/korea/ubuntu/build",
+  "command": "/usr/bin/aarch64-linux-gnu-gcc   -g -o CMakeFiles/opensse-schemes.dir/upper.c.o -c /home/ghfjdhdl/Desktop/korea/ubuntu/part3/upper.c",
+  "file": "/home/ghfjdhdl/Desktop/korea/ubuntu/part3/upper.c"
+}
+]
