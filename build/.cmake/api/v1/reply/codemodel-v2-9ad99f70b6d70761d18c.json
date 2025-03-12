@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "opensse-schemes::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-opensse-schemes-Debug-3168141a35bed49af3ad.json",
+					"jsonFile" : "target-opensse-schemes-Debug-347dbda57d48025f2236.json",
 					"name" : "opensse-schemes",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/ghfjdhdl/Desktop/korea/ubuntu/build",
-		"source" : "/home/ghfjdhdl/Desktop/korea/ubuntu/part3"
+		"build" : "/Users/bagjaehyeong/Desktop/korea_C/c/ubuntu/build",
+		"source" : "/Users/bagjaehyeong/Desktop/korea_C/c/ubuntu/part3"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 7
 	}
 }
