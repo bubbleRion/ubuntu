@@ -13,3 +13,4 @@ date.o : date.c
 
 clean :
 	rm ${TARGET} main.o date.o
+	
