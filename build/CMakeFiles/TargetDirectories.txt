@@ -1,3 +1,0 @@
-/Users/bagjaehyeong/Desktop/korea_C/c/ubuntu/build/CMakeFiles/opensse-schemes.dir
-/Users/bagjaehyeong/Desktop/korea_C/c/ubuntu/build/CMakeFiles/edit_cache.dir
-/Users/bagjaehyeong/Desktop/korea_C/c/ubuntu/build/CMakeFiles/rebuild_cache.dir

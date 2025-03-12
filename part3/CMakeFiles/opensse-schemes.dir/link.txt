@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/opensse-schemes.dir/bubbleSort.c.o CMakeFiles/opensse-schemes.dir/qsort.c.o CMakeFiles/opensse-schemes.dir/sort.c.o CMakeFiles/opensse-schemes.dir/swap.c.o CMakeFiles/opensse-schemes.dir/pointer.c.o CMakeFiles/opensse-schemes.dir/pointer2.c.o CMakeFiles/opensse-schemes.dir/upper.c.o -o opensse-schemes 
