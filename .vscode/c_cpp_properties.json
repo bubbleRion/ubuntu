@@ -4,7 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "-I/usr/include/mysql"
+                "/usr/include/mysql"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
