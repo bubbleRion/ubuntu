@@ -3,7 +3,7 @@
 #include <string.h>
 // libmysqlclient.so libmysqlclient.a
 // cc -o bookSql bookSql.c -I/usr/include/mysql -L/usr/lib/mysql -lmysqlclient
-
+//c99 -I/usr/include/mysql/ -o bookSql bookSql.c -lmysqlclient
 typedef struct
 {
     int bookid;

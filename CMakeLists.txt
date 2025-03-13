@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.00)
+set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/Source/cmake")
+project(ubuntu LANGUAGES C)
+set(CMAKE_ROOT_DIR "./")
+set(CMAKE_C_COMPILER "/usr/bin/gcc")
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD_REQUIRED ON)

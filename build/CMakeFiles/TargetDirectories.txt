@@ -1,0 +1,2 @@
+/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles/edit_cache.dir
+/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles/rebuild_cache.dir
