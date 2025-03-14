@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /home/ghfjdhdl/Desktop/ubuntu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: bowling/all
 all: sqlQuery/all
 all: part1/all
 all: part2/all
@@ -70,6 +71,7 @@ all: part3/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
+preinstall: bowling/preinstall
 preinstall: sqlQuery/preinstall
 preinstall: part1/preinstall
 preinstall: part2/preinstall
@@ -77,11 +79,27 @@ preinstall: part3/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: bowling/clean
 clean: sqlQuery/clean
 clean: part1/clean
 clean: part2/clean
 clean: part3/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory bowling
+
+# Recursive "all" directory target.
+bowling/all: bowling/CMakeFiles/bowling.dir/all
+.PHONY : bowling/all
+
+# Recursive "preinstall" directory target.
+bowling/preinstall:
+.PHONY : bowling/preinstall
+
+# Recursive "clean" directory target.
+bowling/clean: bowling/CMakeFiles/bowling.dir/clean
+.PHONY : bowling/clean
 
 #=============================================================================
 # Directory level rules for directory part1
@@ -213,6 +231,32 @@ sqlQuery/clean: sqlQuery/CMakeFiles/bookSql.dir/clean
 .PHONY : sqlQuery/clean
 
 #=============================================================================
+# Target rules for target bowling/CMakeFiles/bowling.dir
+
+# All Build rule for target.
+bowling/CMakeFiles/bowling.dir/all:
+	$(MAKE) $(MAKESILENT) -f bowling/CMakeFiles/bowling.dir/build.make bowling/CMakeFiles/bowling.dir/depend
+	$(MAKE) $(MAKESILENT) -f bowling/CMakeFiles/bowling.dir/build.make bowling/CMakeFiles/bowling.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/CMakeFiles --progress-num=4,5,6 "Built target bowling"
+.PHONY : bowling/CMakeFiles/bowling.dir/all
+
+# Build rule for subdir invocation for target.
+bowling/CMakeFiles/bowling.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/ubuntu/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bowling/CMakeFiles/bowling.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/ubuntu/CMakeFiles 0
+.PHONY : bowling/CMakeFiles/bowling.dir/rule
+
+# Convenience name for target.
+bowling: bowling/CMakeFiles/bowling.dir/rule
+.PHONY : bowling
+
+# clean rule for target.
+bowling/CMakeFiles/bowling.dir/clean:
+	$(MAKE) $(MAKESILENT) -f bowling/CMakeFiles/bowling.dir/build.make bowling/CMakeFiles/bowling.dir/clean
+.PHONY : bowling/CMakeFiles/bowling.dir/clean
+
+#=============================================================================
 # Target rules for target sqlQuery/CMakeFiles/bookSql.dir
 
 # All Build rule for target.
@@ -245,7 +289,7 @@ sqlQuery/CMakeFiles/bookSql.dir/clean:
 part3/carSerial/CMakeFiles/carSerial.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/carSerial/CMakeFiles/carSerial.dir/build.make part3/carSerial/CMakeFiles/carSerial.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/carSerial/CMakeFiles/carSerial.dir/build.make part3/carSerial/CMakeFiles/carSerial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/CMakeFiles --progress-num=4,5,6 "Built target carSerial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/CMakeFiles --progress-num=7,8,9 "Built target carSerial"
 .PHONY : part3/carSerial/CMakeFiles/carSerial.dir/all
 
 # Build rule for subdir invocation for target.
@@ -271,7 +315,7 @@ part3/carSerial/CMakeFiles/carSerial.dir/clean:
 part3/date/CMakeFiles/date.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/date/CMakeFiles/date.dir/build.make part3/date/CMakeFiles/date.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/date/CMakeFiles/date.dir/build.make part3/date/CMakeFiles/date.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/CMakeFiles --progress-num=7,8,9 "Built target date"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/CMakeFiles --progress-num=10,11,12 "Built target date"
 .PHONY : part3/date/CMakeFiles/date.dir/all
 
 # Build rule for subdir invocation for target.
@@ -297,7 +341,7 @@ part3/date/CMakeFiles/date.dir/clean:
 part3/myRandom/CMakeFiles/myRandom.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/myRandom/CMakeFiles/myRandom.dir/build.make part3/myRandom/CMakeFiles/myRandom.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/myRandom/CMakeFiles/myRandom.dir/build.make part3/myRandom/CMakeFiles/myRandom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/CMakeFiles --progress-num=10,11,12 "Built target myRandom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/CMakeFiles --progress-num=13,14,15 "Built target myRandom"
 .PHONY : part3/myRandom/CMakeFiles/myRandom.dir/all
 
 # Build rule for subdir invocation for target.
@@ -323,7 +367,7 @@ part3/myRandom/CMakeFiles/myRandom.dir/clean:
 part3/string/CMakeFiles/myString.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/string/CMakeFiles/myString.dir/build.make part3/string/CMakeFiles/myString.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/string/CMakeFiles/myString.dir/build.make part3/string/CMakeFiles/myString.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/CMakeFiles --progress-num=13,14,15 "Built target myString"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/CMakeFiles --progress-num=16,17,18 "Built target myString"
 .PHONY : part3/string/CMakeFiles/myString.dir/all
 
 # Build rule for subdir invocation for target.

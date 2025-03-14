@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named bowling
+
+# Build rule for target.
+bowling: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bowling
+.PHONY : bowling
+
+# fast build rule for target.
+bowling/fast:
+	$(MAKE) $(MAKESILENT) -f bowling/CMakeFiles/bowling.dir/build.make bowling/CMakeFiles/bowling.dir/build
+.PHONY : bowling/fast
+
+#=============================================================================
 # Target rules for targets named bookSql
 
 # Build rule for target.
@@ -190,6 +203,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bookSql"
+	@echo "... bowling"
 	@echo "... carSerial"
 	@echo "... date"
 	@echo "... myRandom"

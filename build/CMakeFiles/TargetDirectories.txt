@@ -1,5 +1,8 @@
 /home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles/edit_cache.dir
 /home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles/rebuild_cache.dir
+/home/ghfjdhdl/Desktop/ubuntu/build/bowling/CMakeFiles/bowling.dir
+/home/ghfjdhdl/Desktop/ubuntu/build/bowling/CMakeFiles/edit_cache.dir
+/home/ghfjdhdl/Desktop/ubuntu/build/bowling/CMakeFiles/rebuild_cache.dir
 /home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery/CMakeFiles/bookSql.dir
 /home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery/CMakeFiles/edit_cache.dir
 /home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery/CMakeFiles/rebuild_cache.dir

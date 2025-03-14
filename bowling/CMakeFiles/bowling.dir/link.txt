@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/bowling.dir/src/bowling.c.o CMakeFiles/bowling.dir/src/main.c.o -o bowling   -L/usr/lib/mysql  -Wl,-rpath,/usr/lib/mysql -lmysqlclient 

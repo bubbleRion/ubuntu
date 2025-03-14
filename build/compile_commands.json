@@ -1,5 +1,15 @@
 [
 {
+  "directory": "/home/ghfjdhdl/Desktop/ubuntu/build/bowling",
+  "command": "/usr/bin/gcc  -I/home/ghfjdhdl/Desktop/ubuntu/bowling/include -I/usr/include/mysql -g -o CMakeFiles/bowling.dir/src/bowling.c.o -c /home/ghfjdhdl/Desktop/ubuntu/bowling/src/bowling.c",
+  "file": "/home/ghfjdhdl/Desktop/ubuntu/bowling/src/bowling.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/ubuntu/build/bowling",
+  "command": "/usr/bin/gcc  -I/home/ghfjdhdl/Desktop/ubuntu/bowling/include -I/usr/include/mysql -g -o CMakeFiles/bowling.dir/src/main.c.o -c /home/ghfjdhdl/Desktop/ubuntu/bowling/src/main.c",
+  "file": "/home/ghfjdhdl/Desktop/ubuntu/bowling/src/main.c"
+},
+{
   "directory": "/home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery",
   "command": "/usr/bin/gcc  -I/home/ghfjdhdl/Desktop/ubuntu/sqlQuery/include -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/src/bookSql.c.o -c /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/src/bookSql.c",
   "file": "/home/ghfjdhdl/Desktop/ubuntu/sqlQuery/src/bookSql.c"

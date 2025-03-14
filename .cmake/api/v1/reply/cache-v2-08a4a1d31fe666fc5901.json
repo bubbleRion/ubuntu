@@ -39,11 +39,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build"
+			"value" : "/home/ghfjdhdl/Desktop/ubuntu"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,11 +155,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/g++"
+			"value" : "/usr/bin/c++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -283,11 +283,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc"
+			"value" : "/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -514,12 +514,16 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Enable/Disable output of compile commands during generation."
 				}
 			],
 			"type" : "BOOL",
-			"value" : "TRUE"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_EXTRA_GENERATOR",
@@ -755,7 +759,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "9"
+			"value" : "10"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -836,66 +840,6 @@
 			],
 			"type" : "STATIC",
 			"value" : "MainProject"
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "0.3"
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "0"
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_MINOR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "3"
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_PATCH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_TWEAK",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : ""
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1187,7 +1131,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build"
+			"value" : "/home/ghfjdhdl/Desktop/ubuntu"
 		},
 		{
 			"name" : "MainProject_IS_TOP_LEVEL",
@@ -1214,6 +1158,42 @@
 			"value" : "/home/ghfjdhdl/Desktop/ubuntu"
 		},
 		{
+			"name" : "ballwing_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/ghfjdhdl/Desktop/ubuntu/ballwing"
+		},
+		{
+			"name" : "ballwing_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "ballwing_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/ghfjdhdl/Desktop/ubuntu/ballwing"
+		},
+		{
 			"name" : "bookSql_BINARY_DIR",
 			"properties" : 
 			[
@@ -1223,7 +1203,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery"
+			"value" : "/home/ghfjdhdl/Desktop/ubuntu/sqlQuery"
 		},
 		{
 			"name" : "bookSql_IS_TOP_LEVEL",
@@ -1250,6 +1230,42 @@
 			"value" : "/home/ghfjdhdl/Desktop/ubuntu/sqlQuery"
 		},
 		{
+			"name" : "bowling_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/ghfjdhdl/Desktop/ubuntu/bowling"
+		},
+		{
+			"name" : "bowling_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "bowling_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/ghfjdhdl/Desktop/ubuntu/bowling"
+		},
+		{
 			"name" : "carSerial_BINARY_DIR",
 			"properties" : 
 			[
@@ -1259,7 +1275,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part3/carSerial"
+			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part3/carSerial"
 		},
 		{
 			"name" : "carSerial_IS_TOP_LEVEL",
@@ -1295,7 +1311,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part3/date"
+			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part3/date"
 		},
 		{
 			"name" : "date_IS_TOP_LEVEL",
@@ -1331,7 +1347,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part3/myRandom"
+			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part3/myRandom"
 		},
 		{
 			"name" : "myRandom_IS_TOP_LEVEL",
@@ -1367,7 +1383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part3/string"
+			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part3/string"
 		},
 		{
 			"name" : "myString_IS_TOP_LEVEL",
@@ -1394,42 +1410,6 @@
 			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part3/string"
 		},
 		{
-			"name" : "opensse-schemes_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part3"
-		},
-		{
-			"name" : "opensse-schemes_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "OFF"
-		},
-		{
-			"name" : "opensse-schemes_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part3"
-		},
-		{
 			"name" : "part1_BINARY_DIR",
 			"properties" : 
 			[
@@ -1439,7 +1419,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part1"
+			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part1"
 		},
 		{
 			"name" : "part1_IS_TOP_LEVEL",
@@ -1475,7 +1455,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part2"
+			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part2"
 		},
 		{
 			"name" : "part2_IS_TOP_LEVEL",
@@ -1511,7 +1491,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part3"
+			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part3"
 		},
 		{
 			"name" : "part3_IS_TOP_LEVEL",
@@ -1547,7 +1527,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build"
+			"value" : "/home/ghfjdhdl/Desktop/ubuntu"
 		},
 		{
 			"name" : "ubuntu_IS_TOP_LEVEL",

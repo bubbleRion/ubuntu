@@ -44,6 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/home/ghfjdhdl/Desktop/ubuntu/build/bowling/cmake_install.cmake")
   include("/home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery/cmake_install.cmake")
   include("/home/ghfjdhdl/Desktop/ubuntu/build/part1/cmake_install.cmake")
   include("/home/ghfjdhdl/Desktop/ubuntu/build/part2/cmake_install.cmake")
