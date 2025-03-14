@@ -116,6 +116,71 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named bookSql
+
+# Build rule for target.
+bookSql: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bookSql
+.PHONY : bookSql
+
+# fast build rule for target.
+bookSql/fast:
+	$(MAKE) $(MAKESILENT) -f sqlQuery/CMakeFiles/bookSql.dir/build.make sqlQuery/CMakeFiles/bookSql.dir/build
+.PHONY : bookSql/fast
+
+#=============================================================================
+# Target rules for targets named carSerial
+
+# Build rule for target.
+carSerial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carSerial
+.PHONY : carSerial
+
+# fast build rule for target.
+carSerial/fast:
+	$(MAKE) $(MAKESILENT) -f part3/carSerial/CMakeFiles/carSerial.dir/build.make part3/carSerial/CMakeFiles/carSerial.dir/build
+.PHONY : carSerial/fast
+
+#=============================================================================
+# Target rules for targets named date
+
+# Build rule for target.
+date: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 date
+.PHONY : date
+
+# fast build rule for target.
+date/fast:
+	$(MAKE) $(MAKESILENT) -f part3/date/CMakeFiles/date.dir/build.make part3/date/CMakeFiles/date.dir/build
+.PHONY : date/fast
+
+#=============================================================================
+# Target rules for targets named myRandom
+
+# Build rule for target.
+myRandom: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myRandom
+.PHONY : myRandom
+
+# fast build rule for target.
+myRandom/fast:
+	$(MAKE) $(MAKESILENT) -f part3/myRandom/CMakeFiles/myRandom.dir/build.make part3/myRandom/CMakeFiles/myRandom.dir/build
+.PHONY : myRandom/fast
+
+#=============================================================================
+# Target rules for targets named myString
+
+# Build rule for target.
+myString: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myString
+.PHONY : myString
+
+# fast build rule for target.
+myString/fast:
+	$(MAKE) $(MAKESILENT) -f part3/string/CMakeFiles/myString.dir/build.make part3/string/CMakeFiles/myString.dir/build
+.PHONY : myString/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +189,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... bookSql"
+	@echo "... carSerial"
+	@echo "... date"
+	@echo "... myRandom"
+	@echo "... myString"
 .PHONY : help
 
 

@@ -1,0 +1,14 @@
+/home/ghfjdhdl/Desktop/ubuntu/part3/CMakeFiles/edit_cache.dir
+/home/ghfjdhdl/Desktop/ubuntu/part3/CMakeFiles/rebuild_cache.dir
+/home/ghfjdhdl/Desktop/ubuntu/part3/carSerial/CMakeFiles/carSerial.dir
+/home/ghfjdhdl/Desktop/ubuntu/part3/carSerial/CMakeFiles/edit_cache.dir
+/home/ghfjdhdl/Desktop/ubuntu/part3/carSerial/CMakeFiles/rebuild_cache.dir
+/home/ghfjdhdl/Desktop/ubuntu/part3/date/CMakeFiles/date.dir
+/home/ghfjdhdl/Desktop/ubuntu/part3/date/CMakeFiles/edit_cache.dir
+/home/ghfjdhdl/Desktop/ubuntu/part3/date/CMakeFiles/rebuild_cache.dir
+/home/ghfjdhdl/Desktop/ubuntu/part3/myRandom/CMakeFiles/myRandom.dir
+/home/ghfjdhdl/Desktop/ubuntu/part3/myRandom/CMakeFiles/edit_cache.dir
+/home/ghfjdhdl/Desktop/ubuntu/part3/myRandom/CMakeFiles/rebuild_cache.dir
+/home/ghfjdhdl/Desktop/ubuntu/part3/string/CMakeFiles/myString.dir
+/home/ghfjdhdl/Desktop/ubuntu/part3/string/CMakeFiles/edit_cache.dir
+/home/ghfjdhdl/Desktop/ubuntu/part3/string/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/part1.dir/bubbleSort.c.o CMakeFiles/part1.dir/qsort.c.o CMakeFiles/part1.dir/sort.c.o CMakeFiles/part1.dir/swap.c.o CMakeFiles/part1.dir/pointer.c.o CMakeFiles/part1.dir/pointer2.c.o CMakeFiles/part1.dir/upper.c.o -o part1 

@@ -1,0 +1,300 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "sqlQuery",
+					"jsonFile" : "directory-sqlQuery-0d156aa29959171d2983.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "sqlQuery",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "part1",
+					"jsonFile" : "directory-part1-4831966ab6f7a6119e49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "part1"
+				},
+				{
+					"build" : "part2",
+					"jsonFile" : "directory-part2-3dd62ccd1413a2e6ee18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "part2"
+				},
+				{
+					"build" : "part3",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8
+					],
+					"jsonFile" : "directory-part3-cab8bfb7718f11a6addd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "part3"
+				},
+				{
+					"build" : "part3/carSerial",
+					"jsonFile" : "directory-part3.carSerial-7f5e15c45b43becd2401.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 5,
+					"source" : "part3/carSerial",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "part3/date",
+					"jsonFile" : "directory-part3.date-8b1d34f7f45dadd8e94d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 6,
+					"source" : "part3/date",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "part3/myRandom",
+					"jsonFile" : "directory-part3.myRandom-579040d20aa72815f390.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 7,
+					"source" : "part3/myRandom",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "part3/string",
+					"jsonFile" : "directory-part3.string-fbe701d38f6caf040219.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 8,
+					"source" : "part3/string",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MainProject"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "bookSql",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "part1",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "part2",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "part3",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "carSerial",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "date",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "myRandom",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "myString",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "bookSql::@054a512090bf19256bab",
+					"jsonFile" : "target-bookSql-bce8dce6486c29f9fd34.json",
+					"name" : "bookSql",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "carSerial::@527e8a451a9cf66e256a",
+					"jsonFile" : "target-carSerial-b07b2fc97a6a21ab2229.json",
+					"name" : "carSerial",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "date::@8268b3eb34d870d1dc30",
+					"jsonFile" : "target-date-299aad43a6b1723a8cbb.json",
+					"name" : "date",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "myRandom::@90b5a37a93a3725e4dae",
+					"jsonFile" : "target-myRandom-c9f64985070482c6bffa.json",
+					"name" : "myRandom",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "myString::@bf2529f34841aa7e444f",
+					"jsonFile" : "target-myString-d817ea38f95e58454d34.json",
+					"name" : "myString",
+					"projectIndex" : 8
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ghfjdhdl/Desktop/ubuntu",
+		"source" : "/home/ghfjdhdl/Desktop/ubuntu"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

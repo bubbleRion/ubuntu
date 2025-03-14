@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ghfjdhdl/Desktop/korea/ubuntu/part3
+CMAKE_SOURCE_DIR = /home/ghfjdhdl/Desktop/ubuntu/part3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ghfjdhdl/Desktop/korea/ubuntu/part3
+CMAKE_BINARY_DIR = /home/ghfjdhdl/Desktop/ubuntu/part3
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/korea/ubuntu/part3/CMakeFiles /home/ghfjdhdl/Desktop/korea/ubuntu/part3//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/ubuntu/part3/CMakeFiles /home/ghfjdhdl/Desktop/ubuntu/part3//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/korea/ubuntu/part3/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/ubuntu/part3/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,185 +117,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named opensse-schemes
+# Target rules for targets named carSerial
 
 # Build rule for target.
-opensse-schemes: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opensse-schemes
-.PHONY : opensse-schemes
+carSerial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carSerial
+.PHONY : carSerial
 
 # fast build rule for target.
-opensse-schemes/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/build
-.PHONY : opensse-schemes/fast
+carSerial/fast:
+	$(MAKE) $(MAKESILENT) -f carSerial/CMakeFiles/carSerial.dir/build.make carSerial/CMakeFiles/carSerial.dir/build
+.PHONY : carSerial/fast
 
-bubbleSort.o: bubbleSort.c.o
-.PHONY : bubbleSort.o
+#=============================================================================
+# Target rules for targets named date
 
-# target to build an object file
-bubbleSort.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/bubbleSort.c.o
-.PHONY : bubbleSort.c.o
+# Build rule for target.
+date: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 date
+.PHONY : date
 
-bubbleSort.i: bubbleSort.c.i
-.PHONY : bubbleSort.i
+# fast build rule for target.
+date/fast:
+	$(MAKE) $(MAKESILENT) -f date/CMakeFiles/date.dir/build.make date/CMakeFiles/date.dir/build
+.PHONY : date/fast
 
-# target to preprocess a source file
-bubbleSort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/bubbleSort.c.i
-.PHONY : bubbleSort.c.i
+#=============================================================================
+# Target rules for targets named myRandom
 
-bubbleSort.s: bubbleSort.c.s
-.PHONY : bubbleSort.s
+# Build rule for target.
+myRandom: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myRandom
+.PHONY : myRandom
 
-# target to generate assembly for a file
-bubbleSort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/bubbleSort.c.s
-.PHONY : bubbleSort.c.s
+# fast build rule for target.
+myRandom/fast:
+	$(MAKE) $(MAKESILENT) -f myRandom/CMakeFiles/myRandom.dir/build.make myRandom/CMakeFiles/myRandom.dir/build
+.PHONY : myRandom/fast
 
-pointer.o: pointer.c.o
-.PHONY : pointer.o
+#=============================================================================
+# Target rules for targets named myString
 
-# target to build an object file
-pointer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/pointer.c.o
-.PHONY : pointer.c.o
+# Build rule for target.
+myString: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myString
+.PHONY : myString
 
-pointer.i: pointer.c.i
-.PHONY : pointer.i
-
-# target to preprocess a source file
-pointer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/pointer.c.i
-.PHONY : pointer.c.i
-
-pointer.s: pointer.c.s
-.PHONY : pointer.s
-
-# target to generate assembly for a file
-pointer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/pointer.c.s
-.PHONY : pointer.c.s
-
-pointer2.o: pointer2.c.o
-.PHONY : pointer2.o
-
-# target to build an object file
-pointer2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/pointer2.c.o
-.PHONY : pointer2.c.o
-
-pointer2.i: pointer2.c.i
-.PHONY : pointer2.i
-
-# target to preprocess a source file
-pointer2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/pointer2.c.i
-.PHONY : pointer2.c.i
-
-pointer2.s: pointer2.c.s
-.PHONY : pointer2.s
-
-# target to generate assembly for a file
-pointer2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/pointer2.c.s
-.PHONY : pointer2.c.s
-
-qsort.o: qsort.c.o
-.PHONY : qsort.o
-
-# target to build an object file
-qsort.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/qsort.c.o
-.PHONY : qsort.c.o
-
-qsort.i: qsort.c.i
-.PHONY : qsort.i
-
-# target to preprocess a source file
-qsort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/qsort.c.i
-.PHONY : qsort.c.i
-
-qsort.s: qsort.c.s
-.PHONY : qsort.s
-
-# target to generate assembly for a file
-qsort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/qsort.c.s
-.PHONY : qsort.c.s
-
-sort.o: sort.c.o
-.PHONY : sort.o
-
-# target to build an object file
-sort.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/sort.c.o
-.PHONY : sort.c.o
-
-sort.i: sort.c.i
-.PHONY : sort.i
-
-# target to preprocess a source file
-sort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/sort.c.i
-.PHONY : sort.c.i
-
-sort.s: sort.c.s
-.PHONY : sort.s
-
-# target to generate assembly for a file
-sort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/sort.c.s
-.PHONY : sort.c.s
-
-swap.o: swap.c.o
-.PHONY : swap.o
-
-# target to build an object file
-swap.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/swap.c.o
-.PHONY : swap.c.o
-
-swap.i: swap.c.i
-.PHONY : swap.i
-
-# target to preprocess a source file
-swap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/swap.c.i
-.PHONY : swap.c.i
-
-swap.s: swap.c.s
-.PHONY : swap.s
-
-# target to generate assembly for a file
-swap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/swap.c.s
-.PHONY : swap.c.s
-
-upper.o: upper.c.o
-.PHONY : upper.o
-
-# target to build an object file
-upper.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/upper.c.o
-.PHONY : upper.c.o
-
-upper.i: upper.c.i
-.PHONY : upper.i
-
-# target to preprocess a source file
-upper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/upper.c.i
-.PHONY : upper.c.i
-
-upper.s: upper.c.s
-.PHONY : upper.s
-
-# target to generate assembly for a file
-upper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opensse-schemes.dir/build.make CMakeFiles/opensse-schemes.dir/upper.c.s
-.PHONY : upper.c.s
+# fast build rule for target.
+myString/fast:
+	$(MAKE) $(MAKESILENT) -f string/CMakeFiles/myString.dir/build.make string/CMakeFiles/myString.dir/build
+.PHONY : myString/fast
 
 # Help Target
 help:
@@ -305,28 +176,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... opensse-schemes"
-	@echo "... bubbleSort.o"
-	@echo "... bubbleSort.i"
-	@echo "... bubbleSort.s"
-	@echo "... pointer.o"
-	@echo "... pointer.i"
-	@echo "... pointer.s"
-	@echo "... pointer2.o"
-	@echo "... pointer2.i"
-	@echo "... pointer2.s"
-	@echo "... qsort.o"
-	@echo "... qsort.i"
-	@echo "... qsort.s"
-	@echo "... sort.o"
-	@echo "... sort.i"
-	@echo "... sort.s"
-	@echo "... swap.o"
-	@echo "... swap.i"
-	@echo "... swap.s"
-	@echo "... upper.o"
-	@echo "... upper.i"
-	@echo "... upper.s"
+	@echo "... carSerial"
+	@echo "... date"
+	@echo "... myRandom"
+	@echo "... myString"
 .PHONY : help
 
 

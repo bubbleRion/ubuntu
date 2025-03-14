@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery",
+  "command": "/usr/bin/gcc  -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/bookSql.c.o -c /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/bookSql.c",
+  "file": "/home/ghfjdhdl/Desktop/ubuntu/sqlQuery/bookSql.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/ubuntu/build/part3/carSerial",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/carSerial.dir/main.c.o -c /home/ghfjdhdl/Desktop/ubuntu/part3/carSerial/main.c",
+  "file": "/home/ghfjdhdl/Desktop/ubuntu/part3/carSerial/main.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/ubuntu/build/part3/carSerial",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/carSerial.dir/serial.c.o -c /home/ghfjdhdl/Desktop/ubuntu/part3/carSerial/serial.c",
+  "file": "/home/ghfjdhdl/Desktop/ubuntu/part3/carSerial/serial.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/ubuntu/build/part3/date",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/date.dir/main.c.o -c /home/ghfjdhdl/Desktop/ubuntu/part3/date/main.c",
+  "file": "/home/ghfjdhdl/Desktop/ubuntu/part3/date/main.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/ubuntu/build/part3/date",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/date.dir/date.c.o -c /home/ghfjdhdl/Desktop/ubuntu/part3/date/date.c",
+  "file": "/home/ghfjdhdl/Desktop/ubuntu/part3/date/date.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/ubuntu/build/part3/myRandom",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/myRandom.dir/main.c.o -c /home/ghfjdhdl/Desktop/ubuntu/part3/myRandom/main.c",
+  "file": "/home/ghfjdhdl/Desktop/ubuntu/part3/myRandom/main.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/ubuntu/build/part3/myRandom",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/myRandom.dir/myRandom.c.o -c /home/ghfjdhdl/Desktop/ubuntu/part3/myRandom/myRandom.c",
+  "file": "/home/ghfjdhdl/Desktop/ubuntu/part3/myRandom/myRandom.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/ubuntu/build/part3/string",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/myString.dir/main.c.o -c /home/ghfjdhdl/Desktop/ubuntu/part3/string/main.c",
+  "file": "/home/ghfjdhdl/Desktop/ubuntu/part3/string/main.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/ubuntu/build/part3/string",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/myString.dir/myString.c.o -c /home/ghfjdhdl/Desktop/ubuntu/part3/string/myString.c",
+  "file": "/home/ghfjdhdl/Desktop/ubuntu/part3/string/myString.c"
+}
+]

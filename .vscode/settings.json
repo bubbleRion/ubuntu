@@ -1,8 +1,19 @@
 {
   "files.associations": {
+    "*.py": "python",
+    "*.repos": "yaml",
+    "*.world": "xml",
+    "*.xacro": "xml",
     "stdio.h": "c",
-    "time.h": "c",
-    "serial.h": "c"
+    "random": "c",
+    "stdbool.h": "c",
+    "string": "c",
+    "mysql.h": "c",
+    "*.ipp": "c",
+    "*.tcc": "c",
+    "istream": "c",
+    "time.h": "c"
   },
+  "ros.distro": "humble",
   "cmake.sourceDirectory": "/home/ghfjdhdl/Desktop/ubuntu"
 }

@@ -1,9 +1,40 @@
 {
+    "version": "2.0.0",
+    "runner": "terminal",
+    "type": "shell",
+    "echoCommand": true,
+    "presentation": {
+        "reveal": "always"
+    },
     "tasks": [
         {
+            "label": "compile for C++",
+            "command": "cd ${fileDirname} && cmake . && make",
+            "group": "build",
+            "problemMatcher": {
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "label": "execute",
+            "command": "${fileDirname}/${fileBasenameNoExtension}",
+            "group": "test"
+        },
+        {
             "type": "cppbuild",
-            "label": "C/C++: gcc 활성 파일 빌드",
-            "command": "/usr/bin/gcc",
+            "label": "C/C++: gcc-11 활성 파일 빌드",
+            "command": "/usr/bin/gcc-11",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -23,6 +54,5 @@
             },
             "detail": "디버거에서 생성된 작업입니다."
         }
-    ],
-    "version": "2.0.0"
+    ]
 }
