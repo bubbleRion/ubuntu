@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ghfjdhdl/Desktop/ubuntu/part3
+CMAKE_SOURCE_DIR = /home/ghfjdhdl/Desktop/ubuntu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ghfjdhdl/Desktop/ubuntu/part3
+CMAKE_BINARY_DIR = /home/ghfjdhdl/Desktop/ubuntu
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/ubuntu/part3/CMakeFiles /home/ghfjdhdl/Desktop/ubuntu/part3//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/ubuntu/part3/CMakeFiles 0
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/ubuntu/CMakeFiles /home/ghfjdhdl/Desktop/ubuntu/part3//CMakeFiles/progress.marks
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/ubuntu/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,70 +103,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named carSerial
-
-# Build rule for target.
-carSerial: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carSerial
-.PHONY : carSerial
-
-# fast build rule for target.
-carSerial/fast:
-	$(MAKE) $(MAKESILENT) -f carSerial/CMakeFiles/carSerial.dir/build.make carSerial/CMakeFiles/carSerial.dir/build
-.PHONY : carSerial/fast
-
-#=============================================================================
-# Target rules for targets named date
-
-# Build rule for target.
-date: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 date
-.PHONY : date
-
-# fast build rule for target.
-date/fast:
-	$(MAKE) $(MAKESILENT) -f date/CMakeFiles/date.dir/build.make date/CMakeFiles/date.dir/build
-.PHONY : date/fast
-
-#=============================================================================
-# Target rules for targets named myRandom
-
-# Build rule for target.
-myRandom: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myRandom
-.PHONY : myRandom
-
-# fast build rule for target.
-myRandom/fast:
-	$(MAKE) $(MAKESILENT) -f myRandom/CMakeFiles/myRandom.dir/build.make myRandom/CMakeFiles/myRandom.dir/build
-.PHONY : myRandom/fast
-
-#=============================================================================
-# Target rules for targets named myString
-
-# Build rule for target.
-myString: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myString
-.PHONY : myString
-
-# fast build rule for target.
-myString/fast:
-	$(MAKE) $(MAKESILENT) -f string/CMakeFiles/myString.dir/build.make string/CMakeFiles/myString.dir/build
-.PHONY : myString/fast
 
 # Help Target
 help:
@@ -176,10 +124,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... carSerial"
-	@echo "... date"
-	@echo "... myRandom"
-	@echo "... myString"
 .PHONY : help
 
 
@@ -191,6 +135,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

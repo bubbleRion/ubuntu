@@ -1,8 +1,13 @@
 [
 {
   "directory": "/home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery",
-  "command": "/usr/bin/gcc  -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/bookSql.c.o -c /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/bookSql.c",
-  "file": "/home/ghfjdhdl/Desktop/ubuntu/sqlQuery/bookSql.c"
+  "command": "/usr/bin/gcc  -I/home/ghfjdhdl/Desktop/ubuntu/sqlQuery/include -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/src/bookSql.c.o -c /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/src/bookSql.c",
+  "file": "/home/ghfjdhdl/Desktop/ubuntu/sqlQuery/src/bookSql.c"
+},
+{
+  "directory": "/home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery",
+  "command": "/usr/bin/gcc  -I/home/ghfjdhdl/Desktop/ubuntu/sqlQuery/include -I/usr/include/mysql -g -o CMakeFiles/bookSql.dir/src/main.c.o -c /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/src/main.c",
+  "file": "/home/ghfjdhdl/Desktop/ubuntu/sqlQuery/src/main.c"
 },
 {
   "directory": "/home/ghfjdhdl/Desktop/ubuntu/build/part3/carSerial",

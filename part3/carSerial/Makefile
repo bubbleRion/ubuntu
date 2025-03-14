@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ghfjdhdl/Desktop/ubuntu/part3
+CMAKE_SOURCE_DIR = /home/ghfjdhdl/Desktop/ubuntu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ghfjdhdl/Desktop/ubuntu/part3
+CMAKE_BINARY_DIR = /home/ghfjdhdl/Desktop/ubuntu
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ghfjdhdl/Desktop/ubuntu/part3 && $(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/ubuntu/part3/CMakeFiles /home/ghfjdhdl/Desktop/ubuntu/part3/carSerial//CMakeFiles/progress.marks
-	cd /home/ghfjdhdl/Desktop/ubuntu/part3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carSerial/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/ubuntu/part3/CMakeFiles 0
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/ubuntu/CMakeFiles /home/ghfjdhdl/Desktop/ubuntu/part3/carSerial//CMakeFiles/progress.marks
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/carSerial/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/ubuntu/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ghfjdhdl/Desktop/ubuntu/part3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carSerial/clean
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/carSerial/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,31 +103,31 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ghfjdhdl/Desktop/ubuntu/part3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carSerial/preinstall
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/carSerial/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ghfjdhdl/Desktop/ubuntu/part3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carSerial/preinstall
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/carSerial/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ghfjdhdl/Desktop/ubuntu/part3 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-carSerial/CMakeFiles/carSerial.dir/rule:
-	cd /home/ghfjdhdl/Desktop/ubuntu/part3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 carSerial/CMakeFiles/carSerial.dir/rule
-.PHONY : carSerial/CMakeFiles/carSerial.dir/rule
+part3/carSerial/CMakeFiles/carSerial.dir/rule:
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part3/carSerial/CMakeFiles/carSerial.dir/rule
+.PHONY : part3/carSerial/CMakeFiles/carSerial.dir/rule
 
 # Convenience name for target.
-carSerial: carSerial/CMakeFiles/carSerial.dir/rule
+carSerial: part3/carSerial/CMakeFiles/carSerial.dir/rule
 .PHONY : carSerial
 
 # fast build rule for target.
 carSerial/fast:
-	cd /home/ghfjdhdl/Desktop/ubuntu/part3 && $(MAKE) $(MAKESILENT) -f carSerial/CMakeFiles/carSerial.dir/build.make carSerial/CMakeFiles/carSerial.dir/build
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f part3/carSerial/CMakeFiles/carSerial.dir/build.make part3/carSerial/CMakeFiles/carSerial.dir/build
 .PHONY : carSerial/fast
 
 main.o: main.c.o
@@ -135,7 +135,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /home/ghfjdhdl/Desktop/ubuntu/part3 && $(MAKE) $(MAKESILENT) -f carSerial/CMakeFiles/carSerial.dir/build.make carSerial/CMakeFiles/carSerial.dir/main.c.o
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f part3/carSerial/CMakeFiles/carSerial.dir/build.make part3/carSerial/CMakeFiles/carSerial.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -143,7 +143,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/ghfjdhdl/Desktop/ubuntu/part3 && $(MAKE) $(MAKESILENT) -f carSerial/CMakeFiles/carSerial.dir/build.make carSerial/CMakeFiles/carSerial.dir/main.c.i
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f part3/carSerial/CMakeFiles/carSerial.dir/build.make part3/carSerial/CMakeFiles/carSerial.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -151,7 +151,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/ghfjdhdl/Desktop/ubuntu/part3 && $(MAKE) $(MAKESILENT) -f carSerial/CMakeFiles/carSerial.dir/build.make carSerial/CMakeFiles/carSerial.dir/main.c.s
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f part3/carSerial/CMakeFiles/carSerial.dir/build.make part3/carSerial/CMakeFiles/carSerial.dir/main.c.s
 .PHONY : main.c.s
 
 serial.o: serial.c.o
@@ -159,7 +159,7 @@ serial.o: serial.c.o
 
 # target to build an object file
 serial.c.o:
-	cd /home/ghfjdhdl/Desktop/ubuntu/part3 && $(MAKE) $(MAKESILENT) -f carSerial/CMakeFiles/carSerial.dir/build.make carSerial/CMakeFiles/carSerial.dir/serial.c.o
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f part3/carSerial/CMakeFiles/carSerial.dir/build.make part3/carSerial/CMakeFiles/carSerial.dir/serial.c.o
 .PHONY : serial.c.o
 
 serial.i: serial.c.i
@@ -167,7 +167,7 @@ serial.i: serial.c.i
 
 # target to preprocess a source file
 serial.c.i:
-	cd /home/ghfjdhdl/Desktop/ubuntu/part3 && $(MAKE) $(MAKESILENT) -f carSerial/CMakeFiles/carSerial.dir/build.make carSerial/CMakeFiles/carSerial.dir/serial.c.i
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f part3/carSerial/CMakeFiles/carSerial.dir/build.make part3/carSerial/CMakeFiles/carSerial.dir/serial.c.i
 .PHONY : serial.c.i
 
 serial.s: serial.c.s
@@ -175,7 +175,7 @@ serial.s: serial.c.s
 
 # target to generate assembly for a file
 serial.c.s:
-	cd /home/ghfjdhdl/Desktop/ubuntu/part3 && $(MAKE) $(MAKESILENT) -f carSerial/CMakeFiles/carSerial.dir/build.make carSerial/CMakeFiles/carSerial.dir/serial.c.s
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(MAKE) $(MAKESILENT) -f part3/carSerial/CMakeFiles/carSerial.dir/build.make part3/carSerial/CMakeFiles/carSerial.dir/serial.c.s
 .PHONY : serial.c.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ghfjdhdl/Desktop/ubuntu/part3 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ghfjdhdl/Desktop/ubuntu && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

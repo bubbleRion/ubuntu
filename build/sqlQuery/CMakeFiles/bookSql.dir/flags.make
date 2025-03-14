@@ -4,7 +4,7 @@
 # compile C with /usr/bin/gcc
 C_DEFINES = 
 
-C_INCLUDES = -I/usr/include/mysql
+C_INCLUDES = -I/home/ghfjdhdl/Desktop/ubuntu/sqlQuery/include -I/usr/include/mysql
 
 C_FLAGS = -g
 

@@ -13,7 +13,7 @@
 						3,
 						4
 					],
-					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -23,7 +23,7 @@
 				},
 				{
 					"build" : "sqlQuery",
-					"jsonFile" : "directory-sqlQuery-0d156aa29959171d2983.json",
+					"jsonFile" : "directory-sqlQuery-Debug-0d156aa29959171d2983.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -38,7 +38,7 @@
 				},
 				{
 					"build" : "part1",
-					"jsonFile" : "directory-part1-4831966ab6f7a6119e49.json",
+					"jsonFile" : "directory-part1-Debug-4831966ab6f7a6119e49.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -49,7 +49,7 @@
 				},
 				{
 					"build" : "part2",
-					"jsonFile" : "directory-part2-3dd62ccd1413a2e6ee18.json",
+					"jsonFile" : "directory-part2-Debug-3dd62ccd1413a2e6ee18.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -67,7 +67,7 @@
 						7,
 						8
 					],
-					"jsonFile" : "directory-part3-cab8bfb7718f11a6addd.json",
+					"jsonFile" : "directory-part3-Debug-cab8bfb7718f11a6addd.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -78,7 +78,7 @@
 				},
 				{
 					"build" : "part3/carSerial",
-					"jsonFile" : "directory-part3.carSerial-7f5e15c45b43becd2401.json",
+					"jsonFile" : "directory-part3.carSerial-Debug-7f5e15c45b43becd2401.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -93,7 +93,7 @@
 				},
 				{
 					"build" : "part3/date",
-					"jsonFile" : "directory-part3.date-8b1d34f7f45dadd8e94d.json",
+					"jsonFile" : "directory-part3.date-Debug-8b1d34f7f45dadd8e94d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -108,7 +108,7 @@
 				},
 				{
 					"build" : "part3/myRandom",
-					"jsonFile" : "directory-part3.myRandom-579040d20aa72815f390.json",
+					"jsonFile" : "directory-part3.myRandom-Debug-579040d20aa72815f390.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -123,7 +123,7 @@
 				},
 				{
 					"build" : "part3/string",
-					"jsonFile" : "directory-part3.string-fbe701d38f6caf040219.json",
+					"jsonFile" : "directory-part3.string-Debug-fbe701d38f6caf040219.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -137,7 +137,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -251,35 +251,35 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "bookSql::@054a512090bf19256bab",
-					"jsonFile" : "target-bookSql-bce8dce6486c29f9fd34.json",
+					"jsonFile" : "target-bookSql-Debug-842a182d548585875c3a.json",
 					"name" : "bookSql",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "carSerial::@527e8a451a9cf66e256a",
-					"jsonFile" : "target-carSerial-b07b2fc97a6a21ab2229.json",
+					"jsonFile" : "target-carSerial-Debug-6724dd767b97db0216c7.json",
 					"name" : "carSerial",
 					"projectIndex" : 5
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "date::@8268b3eb34d870d1dc30",
-					"jsonFile" : "target-date-299aad43a6b1723a8cbb.json",
+					"jsonFile" : "target-date-Debug-9c21cdeb47e80ef3a7d6.json",
 					"name" : "date",
 					"projectIndex" : 6
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "myRandom::@90b5a37a93a3725e4dae",
-					"jsonFile" : "target-myRandom-c9f64985070482c6bffa.json",
+					"jsonFile" : "target-myRandom-Debug-7370548488fd9904de25.json",
 					"name" : "myRandom",
 					"projectIndex" : 7
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "myString::@bf2529f34841aa7e444f",
-					"jsonFile" : "target-myString-d817ea38f95e58454d34.json",
+					"jsonFile" : "target-myString-Debug-c99d367adc0e0c38097d.json",
 					"name" : "myString",
 					"projectIndex" : 8
 				}
@@ -289,7 +289,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/ghfjdhdl/Desktop/ubuntu",
+		"build" : "/home/ghfjdhdl/Desktop/ubuntu/build",
 		"source" : "/home/ghfjdhdl/Desktop/ubuntu"
 	},
 	"version" : 

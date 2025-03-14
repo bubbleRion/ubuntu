@@ -219,12 +219,12 @@ sqlQuery/clean: sqlQuery/CMakeFiles/bookSql.dir/clean
 sqlQuery/CMakeFiles/bookSql.dir/all:
 	$(MAKE) $(MAKESILENT) -f sqlQuery/CMakeFiles/bookSql.dir/build.make sqlQuery/CMakeFiles/bookSql.dir/depend
 	$(MAKE) $(MAKESILENT) -f sqlQuery/CMakeFiles/bookSql.dir/build.make sqlQuery/CMakeFiles/bookSql.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles --progress-num=1,2 "Built target bookSql"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles --progress-num=1,2,3 "Built target bookSql"
 .PHONY : sqlQuery/CMakeFiles/bookSql.dir/all
 
 # Build rule for subdir invocation for target.
 sqlQuery/CMakeFiles/bookSql.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sqlQuery/CMakeFiles/bookSql.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles 0
 .PHONY : sqlQuery/CMakeFiles/bookSql.dir/rule
@@ -245,7 +245,7 @@ sqlQuery/CMakeFiles/bookSql.dir/clean:
 part3/carSerial/CMakeFiles/carSerial.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/carSerial/CMakeFiles/carSerial.dir/build.make part3/carSerial/CMakeFiles/carSerial.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/carSerial/CMakeFiles/carSerial.dir/build.make part3/carSerial/CMakeFiles/carSerial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles --progress-num=3,4,5 "Built target carSerial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles --progress-num=4,5,6 "Built target carSerial"
 .PHONY : part3/carSerial/CMakeFiles/carSerial.dir/all
 
 # Build rule for subdir invocation for target.
@@ -271,7 +271,7 @@ part3/carSerial/CMakeFiles/carSerial.dir/clean:
 part3/date/CMakeFiles/date.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/date/CMakeFiles/date.dir/build.make part3/date/CMakeFiles/date.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/date/CMakeFiles/date.dir/build.make part3/date/CMakeFiles/date.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles --progress-num=6,7,8 "Built target date"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles --progress-num=7,8,9 "Built target date"
 .PHONY : part3/date/CMakeFiles/date.dir/all
 
 # Build rule for subdir invocation for target.
@@ -297,7 +297,7 @@ part3/date/CMakeFiles/date.dir/clean:
 part3/myRandom/CMakeFiles/myRandom.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/myRandom/CMakeFiles/myRandom.dir/build.make part3/myRandom/CMakeFiles/myRandom.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/myRandom/CMakeFiles/myRandom.dir/build.make part3/myRandom/CMakeFiles/myRandom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles --progress-num=9,10,11 "Built target myRandom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles --progress-num=10,11,12 "Built target myRandom"
 .PHONY : part3/myRandom/CMakeFiles/myRandom.dir/all
 
 # Build rule for subdir invocation for target.
@@ -323,7 +323,7 @@ part3/myRandom/CMakeFiles/myRandom.dir/clean:
 part3/string/CMakeFiles/myString.dir/all:
 	$(MAKE) $(MAKESILENT) -f part3/string/CMakeFiles/myString.dir/build.make part3/string/CMakeFiles/myString.dir/depend
 	$(MAKE) $(MAKESILENT) -f part3/string/CMakeFiles/myString.dir/build.make part3/string/CMakeFiles/myString.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles --progress-num=12,13,14 "Built target myString"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles --progress-num=13,14,15 "Built target myString"
 .PHONY : part3/string/CMakeFiles/myString.dir/all
 
 # Build rule for subdir invocation for target.

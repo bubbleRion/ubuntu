@@ -1,6 +1,8 @@
-sqlQuery/CMakeFiles/bookSql.dir/bookSql.c.o: \
- /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/bookSql.c \
- /usr/include/stdc-predef.h /usr/include/mysql/mysql.h \
+sqlQuery/CMakeFiles/bookSql.dir/src/bookSql.c.o: \
+ /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/src/bookSql.c \
+ /usr/include/stdc-predef.h \
+ /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/include/booksql.h \
+ /usr/include/mysql/mysql.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \

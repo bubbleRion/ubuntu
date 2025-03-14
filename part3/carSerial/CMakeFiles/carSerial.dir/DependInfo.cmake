@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ghfjdhdl/Desktop/ubuntu/part3/carSerial/main.c" "carSerial/CMakeFiles/carSerial.dir/main.c.o" "gcc" "carSerial/CMakeFiles/carSerial.dir/main.c.o.d"
-  "/home/ghfjdhdl/Desktop/ubuntu/part3/carSerial/serial.c" "carSerial/CMakeFiles/carSerial.dir/serial.c.o" "gcc" "carSerial/CMakeFiles/carSerial.dir/serial.c.o.d"
+  "/home/ghfjdhdl/Desktop/ubuntu/part3/carSerial/main.c" "part3/carSerial/CMakeFiles/carSerial.dir/main.c.o" "gcc" "part3/carSerial/CMakeFiles/carSerial.dir/main.c.o.d"
+  "/home/ghfjdhdl/Desktop/ubuntu/part3/carSerial/serial.c" "part3/carSerial/CMakeFiles/carSerial.dir/serial.c.o" "gcc" "part3/carSerial/CMakeFiles/carSerial.dir/serial.c.o.d"
   )
 
 # Targets to which this target links.

@@ -69,31 +69,47 @@ include sqlQuery/CMakeFiles/bookSql.dir/progress.make
 # Include the compile flags for this target's objects.
 include sqlQuery/CMakeFiles/bookSql.dir/flags.make
 
-sqlQuery/CMakeFiles/bookSql.dir/bookSql.c.o: sqlQuery/CMakeFiles/bookSql.dir/flags.make
-sqlQuery/CMakeFiles/bookSql.dir/bookSql.c.o: ../sqlQuery/bookSql.c
-sqlQuery/CMakeFiles/bookSql.dir/bookSql.c.o: sqlQuery/CMakeFiles/bookSql.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sqlQuery/CMakeFiles/bookSql.dir/bookSql.c.o"
-	cd /home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT sqlQuery/CMakeFiles/bookSql.dir/bookSql.c.o -MF CMakeFiles/bookSql.dir/bookSql.c.o.d -o CMakeFiles/bookSql.dir/bookSql.c.o -c /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/bookSql.c
+sqlQuery/CMakeFiles/bookSql.dir/src/bookSql.c.o: sqlQuery/CMakeFiles/bookSql.dir/flags.make
+sqlQuery/CMakeFiles/bookSql.dir/src/bookSql.c.o: ../sqlQuery/src/bookSql.c
+sqlQuery/CMakeFiles/bookSql.dir/src/bookSql.c.o: sqlQuery/CMakeFiles/bookSql.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sqlQuery/CMakeFiles/bookSql.dir/src/bookSql.c.o"
+	cd /home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT sqlQuery/CMakeFiles/bookSql.dir/src/bookSql.c.o -MF CMakeFiles/bookSql.dir/src/bookSql.c.o.d -o CMakeFiles/bookSql.dir/src/bookSql.c.o -c /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/src/bookSql.c
 
-sqlQuery/CMakeFiles/bookSql.dir/bookSql.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bookSql.dir/bookSql.c.i"
-	cd /home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/bookSql.c > CMakeFiles/bookSql.dir/bookSql.c.i
+sqlQuery/CMakeFiles/bookSql.dir/src/bookSql.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bookSql.dir/src/bookSql.c.i"
+	cd /home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/src/bookSql.c > CMakeFiles/bookSql.dir/src/bookSql.c.i
 
-sqlQuery/CMakeFiles/bookSql.dir/bookSql.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bookSql.dir/bookSql.c.s"
-	cd /home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/bookSql.c -o CMakeFiles/bookSql.dir/bookSql.c.s
+sqlQuery/CMakeFiles/bookSql.dir/src/bookSql.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bookSql.dir/src/bookSql.c.s"
+	cd /home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/src/bookSql.c -o CMakeFiles/bookSql.dir/src/bookSql.c.s
+
+sqlQuery/CMakeFiles/bookSql.dir/src/main.c.o: sqlQuery/CMakeFiles/bookSql.dir/flags.make
+sqlQuery/CMakeFiles/bookSql.dir/src/main.c.o: ../sqlQuery/src/main.c
+sqlQuery/CMakeFiles/bookSql.dir/src/main.c.o: sqlQuery/CMakeFiles/bookSql.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object sqlQuery/CMakeFiles/bookSql.dir/src/main.c.o"
+	cd /home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT sqlQuery/CMakeFiles/bookSql.dir/src/main.c.o -MF CMakeFiles/bookSql.dir/src/main.c.o.d -o CMakeFiles/bookSql.dir/src/main.c.o -c /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/src/main.c
+
+sqlQuery/CMakeFiles/bookSql.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bookSql.dir/src/main.c.i"
+	cd /home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/src/main.c > CMakeFiles/bookSql.dir/src/main.c.i
+
+sqlQuery/CMakeFiles/bookSql.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bookSql.dir/src/main.c.s"
+	cd /home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ghfjdhdl/Desktop/ubuntu/sqlQuery/src/main.c -o CMakeFiles/bookSql.dir/src/main.c.s
 
 # Object files for target bookSql
 bookSql_OBJECTS = \
-"CMakeFiles/bookSql.dir/bookSql.c.o"
+"CMakeFiles/bookSql.dir/src/bookSql.c.o" \
+"CMakeFiles/bookSql.dir/src/main.c.o"
 
 # External object files for target bookSql
 bookSql_EXTERNAL_OBJECTS =
 
-sqlQuery/bookSql: sqlQuery/CMakeFiles/bookSql.dir/bookSql.c.o
+sqlQuery/bookSql: sqlQuery/CMakeFiles/bookSql.dir/src/bookSql.c.o
+sqlQuery/bookSql: sqlQuery/CMakeFiles/bookSql.dir/src/main.c.o
 sqlQuery/bookSql: sqlQuery/CMakeFiles/bookSql.dir/build.make
 sqlQuery/bookSql: sqlQuery/CMakeFiles/bookSql.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable bookSql"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ghfjdhdl/Desktop/ubuntu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable bookSql"
 	cd /home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bookSql.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ghfjdhdl/Desktop/ubuntu/part3/myRandom/main.c" "myRandom/CMakeFiles/myRandom.dir/main.c.o" "gcc" "myRandom/CMakeFiles/myRandom.dir/main.c.o.d"
-  "/home/ghfjdhdl/Desktop/ubuntu/part3/myRandom/myRandom.c" "myRandom/CMakeFiles/myRandom.dir/myRandom.c.o" "gcc" "myRandom/CMakeFiles/myRandom.dir/myRandom.c.o.d"
+  "/home/ghfjdhdl/Desktop/ubuntu/part3/myRandom/main.c" "part3/myRandom/CMakeFiles/myRandom.dir/main.c.o" "gcc" "part3/myRandom/CMakeFiles/myRandom.dir/main.c.o.d"
+  "/home/ghfjdhdl/Desktop/ubuntu/part3/myRandom/myRandom.c" "part3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o" "gcc" "part3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o.d"
   )
 
 # Targets to which this target links.

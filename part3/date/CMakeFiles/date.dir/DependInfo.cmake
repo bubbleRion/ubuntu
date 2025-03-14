@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ghfjdhdl/Desktop/ubuntu/part3/date/date.c" "date/CMakeFiles/date.dir/date.c.o" "gcc" "date/CMakeFiles/date.dir/date.c.o.d"
-  "/home/ghfjdhdl/Desktop/ubuntu/part3/date/main.c" "date/CMakeFiles/date.dir/main.c.o" "gcc" "date/CMakeFiles/date.dir/main.c.o.d"
+  "/home/ghfjdhdl/Desktop/ubuntu/part3/date/date.c" "part3/date/CMakeFiles/date.dir/date.c.o" "gcc" "part3/date/CMakeFiles/date.dir/date.c.o.d"
+  "/home/ghfjdhdl/Desktop/ubuntu/part3/date/main.c" "part3/date/CMakeFiles/date.dir/main.c.o" "gcc" "part3/date/CMakeFiles/date.dir/main.c.o.d"
   )
 
 # Targets to which this target links.
