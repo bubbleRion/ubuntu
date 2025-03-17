@@ -179,6 +179,7 @@ void select_check(MYSQL * conn){
         ++i;
         pBall = realloc(pBall, sizeof(Ball) * (i + 1));
     };
+    printf("아이디 \t이름 \t점수 \t날짜 \n");
     for (int j = 0; j < i; ++j)
     {
         printf("%d \t%s \t%d \t%s \n",
@@ -219,6 +220,7 @@ void total_check(MYSQL * conn){
         ++i;
         pTotal = realloc(pTotal, sizeof(Ball) * (i + 1));
     };
+    printf("이름 \t게임횟수 \n");
     for (int j = 0; j < i; ++j)
     {
         printf("%s \t%d \n",
@@ -234,9 +236,9 @@ void easter_eggs(){
     printf(".................\n");
     printf(".................\n");
     printf(".................\n");
-    printf("제작자 : 박재형\n");
+    printf(" 제작자 : 박재형\n");
     printf(".................\n");
-    printf("개발자 : 지피티\n");
+    printf(" 개발자 : 지피티\n");
     printf(".................\n");
     printf(".................\n");
     printf(".................\n");
