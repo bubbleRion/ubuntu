@@ -1,53 +1,72 @@
 #include "bowling.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-int main(void)
-{
+
+int main(void) {
     MYSQL *conn;
     char *host = "localhost";
     char *user = "myuser";
     char *pass = "0000";
-    char *db = "ballwing";
+    char *db = "bowling";
     int port = 3306;
+    int choice;
+    
 
-
-    int frame = 1;
-    int oneFrameScoreNum;
-    int twoFrameScoreNum;
-
-
-    // 연결
-    conn = mysql_init(NULL); // DB 연결 요청 준비
-    if (mysql_real_connect(conn, host, user, pass, db, port, NULL, 0))
-        printf("MySQL 연결 성공\n");
-    else
-    {
-        printf("MySQL 연결 실패\n");
+    // MySQL 연결
+    conn = mysql_init(NULL);
+    if (!conn) {
+        printf("MySQL 초기화 실패\n");
         return 1;
     }
-    while (frame < 10)
+
+    if (!mysql_real_connect(conn, host, user, pass, db, port, NULL, 0)) {
+        printf("MySQL 연결 실패: %s\n", mysql_error(conn));
+        mysql_close(conn);
+        return 1;
+    }
+    printf("MySQL 연결 성공\n");
+    printf(".................\n");
+    printf(".................\n");
+    printf(".................\n");
+    printf("....볼링 게임....\n");
+    printf(".................\n");
+    printf(".................\n");
+    printf(".................\n");
+    printf("\n");
+    while (true)
     {
-        for(int i = 0; i < 10; ++i){
-            printf("|%d " , frame);
-        }
-        printf("|\n");
-        for(int i = 0; i < 10;  ++i){
-            printf("|%c " ,  "");
-        }
         // printf("1 , 2 번 고르세요!");
-        scanf("%d%*c", &oneFrameScoreNum);
-        if(oneFrameScoreNum == 10){
-            score(10 , 0);
-        }
-        else{
-            score(oneFrameScoreNum , twoFrameScoreNum);
+        printf("...PRESS Enter!..\n");
+        getchar();
+        print_menu();
+        scanf("%d%*c", &choice);
+        switch (choice)
+        {
+        case EGGS:
+            easter_eggs();
+            break;
+        case GAME:
+            game_start(conn);
+            break;
+        case CHECK:
+            select_check(conn);
+            break;
+        case TOTAL:
+            total_check(conn);
+            break;
+        case QUIT:
+            quit(conn);
+            break;
+        default:
+            printf("값을 잘못 입력하셨습니다.\n");
+            continue;
         }
         
-
-        frame++;
     }
-
+    
+    
     mysql_close(conn);
-
     return 0;
 }

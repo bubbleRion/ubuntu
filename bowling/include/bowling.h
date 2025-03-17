@@ -3,26 +3,38 @@
 #include <mysql.h>
 #include <stdio.h>
 #include <string.h>
-// sudo apt install libmysql++*
-// dpkg -L libmysqlclient-dev | grep mysql.h
-// cc -o bookSql bookSql.c -I/usr/include/mysql -L/usr/lib/mysql -lmysqlclient
-// libmysqlclient.so libmysqlclient.a
+
+#define FRAMES 10
+
 typedef struct
 {
-    int bookid;
-    char bookname[40];
-    char publisher[40];
-    int price;
-} Book;
+    int id;
+    char name[40];
+    int score;
+    char date[64];
+} Ball;
+
+typedef struct
+{
+    char name[40];
+    int total;
+
+} Total;
 
 enum menu
 {
-    SELECT,
-    INSERT,
-    DROP,
-    ALTER,
-    QUERY
+    EGGS,
+    GAME,
+    CHECK,
+    TOTAL,
+    QUIT
 };
 
 int * score(int one , int two);
-char scoreCheck(score , isStrike , isSpare);
+const char* scoreCheck(int score , int isStrike , int isSpare);
+void game_start(MYSQL *conn);
+void select_check(MYSQL * conn);
+void total_check(MYSQL * conn);
+void print_menu(void);
+void easter_eggs();
+void quit(MYSQL * conn);
