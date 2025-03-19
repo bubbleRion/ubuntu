@@ -15,7 +15,9 @@
     "time.h": "c",
     "bowling.h": "c",
     "booksql.h": "c",
-    "io.h": "c"
+    "io.h": "c",
+    "delay.h": "c",
+    "interrupt.h": "c"
   },
   "ros.distro": "humble",
   "cmake.sourceDirectory": "/home/ghfjdhdl/Desktop/ubuntu"

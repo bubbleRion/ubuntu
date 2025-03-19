@@ -10,6 +10,7 @@
             "includePath": [
                 "/home/ghfjdhdl/Desktop/ubuntu/src",
                 "/home/ghfjdhdl/Desktop/ubuntu/lib/lcd",
+                "/home/ghfjdhdl/Desktop/ubuntu/lib/uart1",
                 ""
             ],
             "browse": {
@@ -17,6 +18,7 @@
                 "path": [
                     "/home/ghfjdhdl/Desktop/ubuntu/src",
                     "/home/ghfjdhdl/Desktop/ubuntu/lib/lcd",
+                    "/home/ghfjdhdl/Desktop/ubuntu/lib/uart1",
                     ""
                 ]
             },
