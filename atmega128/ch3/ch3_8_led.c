@@ -12,7 +12,7 @@ int main(void)
     while (1)
     {
         OCR0 = brightness;
-        _delay_ms(20);
+        _delay_ms(10);
         brightness += delta;
         if(brightness == 0 || brightness == 255){
             delta = -delta;
