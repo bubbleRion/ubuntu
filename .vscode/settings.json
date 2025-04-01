@@ -20,7 +20,8 @@
     "interrupt.h": "c",
     "uart0.h": "c",
     "lcd.h": "c",
-    "wiringpi.h": "c"
+    "wiringpi.h": "c",
+    "fcntl.h": "c"
   },
   "ros.distro": "humble",
   "cmake.sourceDirectory": "/home/ghfjdhdl/Desktop/ubuntu"
