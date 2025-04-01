@@ -1,112 +1,84 @@
+// SHT 5초 마다 한번씩 온습도 측정 - timer0 5초 주기를 계산.
+// 외부 EEPROM  의 주소는 0100-> 온도 0200-> 습도
+// SHT 에서 측정 실패는 error 성공 시에만 EEPROM 에 저장.
+// INT4 번 써서(스위치를 누르면) EEPROM 에 데이터를 읽어서 UART로 출력하기.
+// 0 ~ 99.9 표현하려면 1 byte 로는 부족하다. ???
+
+#include "SHT2x.h"
+#include "at25160.h"
+#include "uart0.h"
 #include <avr/interrupt.h>
 #include <avr/io.h>
-#include <util/delay.h>
 
-#define PIEZO_PORT PORTB
-#define PIEZO_DDR  DDRB
-#define PIEZO_PIN  _BV(PB7)
+volatile uint8_t readFlag = 1, txFlag = 0;
+volatile uint16_t timerCount = 0;
+volatile uint16_t temperatureC, humidityRH;
 
-// 음계 주파수 (Hz) - 근사값
-#define SOL4 392 // G4
-#define LA4 440 // A4
-#define SI4 494 // B4
-#define DO5 523 // C5
-#define RE5 587 // D5
-#define MI5 659 // E5
+int main(void)
+{
+    SPI_Init();
 
-// 음길이 (ms) - 4분음표 기준
-#define WHOLE_NOTE 2000
-#define HALF_NOTE 1000
-#define QUARTER_NOTE 500
-#define EIGHTH_NOTE 250
+    Init_TWI();
+    SHT2x_Init();
 
-uint16_t doReMi[6] = {SOL4, LA4, SI4, DO5, RE5, MI5}; // 필요한 음계만 정의
-uint8_t piano = 0;
+    uart0Init();
+    DDRE = _BV(PE1); // 0x02;
 
-// "My Soul" 멜로디 (악보 기반)
-uint8_t melody[] = {
-    0, 0, 1, 0, 5, 4, 3, // 1마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 2마디
-    0, 0, 1, 0, 5, 4, 3, // 3마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 4마디
-    0, 0, 1, 0, 5, 4, 3, // 5마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 6마디
-    0, 0, 1, 0, 5, 4, 3, // 7마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 8마디
-    0, 0, 1, 0, 5, 4, 3, // 9마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 10마디
-    0, 0, 1, 0, 5, 4, 3, // 11마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 12마디
-    0, 0, 1, 0, 5, 4, 3, // 13마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 14마디
-    0, 0, 1, 0, 5, 4, 3, // 15마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 16마디
-    0, 0, 1, 0, 5, 4, 3, // 17마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 18마디
-    0, 0, 1, 0, 5, 4, 3, // 19마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 20마디
-    0, 0, 1, 0, 5, 4, 3, // 21마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 22마디
-    0, 0, 1, 0, 5, 4, 3, // 23마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 24마디
-    0, 0, 1, 0, 5, 4, 3, // 25마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 26마디
-    0, 0, 1, 0, 5, 4, 3, // 27마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 28마디
-    0, 0, 1, 0, 5, 4, 3, // 29마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 30마디
-    0, 0, 1, 0, 5, 4, 3, // 31마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 32마디
-    0, 0, 1, 0, 5, 4, 3, // 33마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 34마디
-    0, 0, 1, 0, 5, 4, 3, // 35마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 36마디
-    0, 0, 1, 0, 5, 4, 3, // 37마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 38마디
-    0, 0, 1, 0, 5, 4, 3, // 39마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 40마디
-    0, 0, 1, 0, 5, 4, 3, // 41마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 42마디
-    0, 0, 1, 0, 5, 4, 3, // 43마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 44마디
-    0, 0, 1, 0, 5, 4, 3, // 45마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 46마디
-    0, 0, 1, 0, 5, 4, 3, // 47마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 48마디
-    0, 0, 1, 0, 5, 4, 3, // 49마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 50마디
-    0, 0, 1, 0, 5, 4, 3, // 51마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 52마디
-    0, 0, 1, 0, 5, 4, 3, // 53마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 54마디
-    0, 0, 1, 0, 5, 4, 3, // 55마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 56마디
-    0, 0, 1, 0, 5, 4, 3, // 57마디
-    2, 3, 4, 5, 4, 3, 2, 1, // 58마디
-    0, 0, 1, 0, 5, 4, 3, // 59마디
-    2, 3, 4, 5, 4, 3, 2, 1  // 60마디
-};
+    // interrupt 4 설정
+    EICRB = 0x03; // int 4 상승 엣지
+    EIMSK = 0x10;
 
-int main(void) {
-    PIEZO_DDR |= PIEZO_PIN; // 버저 출력 설정
+    TCCR0 = 0x07; // 1024 분주비
+    TCNT0 = 112;  // 144 세기.. 16M /1024/ 0.1초 ....
+    TIMSK = 0x01; // timer0 ovf enable
 
-    TCCR1A = _BV(COM1C1) | _BV(WGM11); // Fast PWM, non-inverting mode
-    TCCR1B = _BV(WGM13) | _BV(WGM12) | _BV(CS10); // Fast PWM, no prescaling
-    TCCR1C = 0x00;
+    sei();
 
-    sei(); // 전역 인터럽트 설정
+    while (1)
+    {
+        if (readFlag)
+        {
+            // i2c temp read -> spi eeprom write
+            SHT2x_MeasureHM(TEMP, (nt16 *)&temperatureC);
+            SHT2x_MeasureHM(HUMIDITY, (nt16 *)&humidityRH);
+            temperatureC = SHT2x_CalcTemperatureC(temperatureC);
+            humidityRH = SHT2x_CalcRH(humidityRH);
+            at25160_Write_Arry(0x0100, (uint8_t *)&temperatureC, 2);
+            at25160_Write_Arry(0x0200, (uint8_t *)&humidityRH, 2);
+            readFlag = 0;
+        }
+        if (txFlag)
+        {
+            // eeprom read -> uart printf();
+            at25160_Read_Arry(0x100, (uint8_t *)&temperatureC, 2);
+            at25160_Read_Arry(0x200, (uint8_t *)&humidityRH, 2);
+            char buffer[16];
+            uart0PrintString("\n\rTemp: ");
+            sprintf(buffer, "%d.%d", temperatureC / 10, temperatureC % 10);
+            uart0PrintString(buffer);
 
-    while (1) {
-        ICR1 = 16000000 / doReMi[melody[piano]]; // 주파수 설정
-        OCR1C = ICR1 / 2; // 듀티 사이클 50%
+            uart0PrintString("\n\rHumi: ");
+            sprintf(buffer, "%u.%u", humidityRH / 10, humidityRH % 10);
+            uart0PrintString(buffer);
 
-        // 음길이 처리 (4분음표 기준)
-        _delay_ms(250); // 16분음표
-
-        piano++;
-        if (piano >= sizeof(melody) / sizeof(melody[0])) {
-            piano = 0; // 멜로디 반복
+            txFlag = 0;
         }
     }
     return 0;
+}
+
+ISR(TIMER0_OVF_vect)
+{
+    timerCount++;
+    if (timerCount >= 500) // 5초 확인
+    {
+        timerCount = 0;
+        readFlag = 1;
+    }
+    TCNT0 = 112;
+}
+
+ISR(INT4_vect)
+{
+    txFlag = 1;
 }

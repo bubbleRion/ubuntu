@@ -9,16 +9,20 @@
             "name": "PlatformIO",
             "includePath": [
                 "/home/ghfjdhdl/Desktop/ubuntu/src",
-                "/home/ghfjdhdl/Desktop/ubuntu/lib/lcd",
                 "/home/ghfjdhdl/Desktop/ubuntu/lib/uart0",
+                "/home/ghfjdhdl/Desktop/ubuntu/lib/at25",
+                "/home/ghfjdhdl/Desktop/ubuntu/lib/sht20",
+                "/home/ghfjdhdl/Desktop/ubuntu/lib/lcd",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
                     "/home/ghfjdhdl/Desktop/ubuntu/src",
-                    "/home/ghfjdhdl/Desktop/ubuntu/lib/lcd",
                     "/home/ghfjdhdl/Desktop/ubuntu/lib/uart0",
+                    "/home/ghfjdhdl/Desktop/ubuntu/lib/at25",
+                    "/home/ghfjdhdl/Desktop/ubuntu/lib/sht20",
+                    "/home/ghfjdhdl/Desktop/ubuntu/lib/lcd",
                     ""
                 ]
             },
