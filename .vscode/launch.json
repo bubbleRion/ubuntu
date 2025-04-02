@@ -33,37 +33,6 @@
                 }
             ]
         },
-        {
-            "type": "platformio-debug",
-            "request": "launch",
-            "name": "PIO Debug",
-            "executable": "/home/ghfjdhdl/Desktop/ubuntu/.pio/build/ATmega128/firmware.elf",
-            "projectEnvName": "ATmega128",
-            "toolchainBinDir": "/home/ghfjdhdl/.platformio/packages/toolchain-atmelavr/bin",
-            "internalConsoleOptions": "openOnSessionStart",
-            "preLaunchTask": {
-                "type": "PlatformIO",
-                "task": "Pre-Debug"
-            }
-        },
-        {
-            "type": "platformio-debug",
-            "request": "launch",
-            "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "/home/ghfjdhdl/Desktop/ubuntu/.pio/build/ATmega128/firmware.elf",
-            "projectEnvName": "ATmega128",
-            "toolchainBinDir": "/home/ghfjdhdl/.platformio/packages/toolchain-atmelavr/bin",
-            "internalConsoleOptions": "openOnSessionStart"
-        },
-        {
-            "type": "platformio-debug",
-            "request": "launch",
-            "name": "PIO Debug (without uploading)",
-            "executable": "/home/ghfjdhdl/Desktop/ubuntu/.pio/build/ATmega128/firmware.elf",
-            "projectEnvName": "ATmega128",
-            "toolchainBinDir": "/home/ghfjdhdl/.platformio/packages/toolchain-atmelavr/bin",
-            "internalConsoleOptions": "openOnSessionStart",
-            "loadMode": "manual"
-        }
+        
     ]
 }

@@ -1,45 +1,20 @@
-//
-// !!! WARNING !!! AUTO-GENERATED FILE!
-// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
-// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
-//
 {
     "configurations": [
         {
-            "name": "PlatformIO",
+            "name": "Linux",
             "includePath": [
-                "/home/ghfjdhdl/Desktop/ubuntu/src",
-                "/home/ghfjdhdl/Desktop/ubuntu/lib/uart0",
-                "/home/ghfjdhdl/Desktop/ubuntu/lib/at25",
-                "/home/ghfjdhdl/Desktop/ubuntu/lib/sht20",
-                "/home/ghfjdhdl/Desktop/ubuntu/lib/lcd",
-                ""
+                "${workspaceFolder}/**",
+                "/usr/include/**",
+                "/lib/modules/6.6.51+rpt-rpi-2712/source/include",
+                "/usr/src/linux-headers-6.6.51+rpt-rpi-2712/arch/arm64/include/generated",
+                "/usr/src/linux-headers-6.6.51+rpt-rpi-2712/include",
+                "/usr/src/linux-headers-6.6.51+rpt-common-rpi/arch/arm64/include"
             ],
-            "browse": {
-                "limitSymbolsToIncludedHeaders": true,
-                "path": [
-                    "/home/ghfjdhdl/Desktop/ubuntu/src",
-                    "/home/ghfjdhdl/Desktop/ubuntu/lib/uart0",
-                    "/home/ghfjdhdl/Desktop/ubuntu/lib/at25",
-                    "/home/ghfjdhdl/Desktop/ubuntu/lib/sht20",
-                    "/home/ghfjdhdl/Desktop/ubuntu/lib/lcd",
-                    ""
-                ]
-            },
-            "defines": [
-                "F_CPU=16000000L",
-                "PLATFORMIO=60118",
-                "ARDUINO_AVR_ATmega128",
-                "__AVR_ATmega128__",
-                ""
-            ],
-            "cStandard": "gnu11",
-            "cppStandard": "gnu++11",
-            "compilerPath": "/home/ghfjdhdl/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
-            "compilerArgs": [
-                "-mmcu=atmega128",
-                ""
-            ]
+            "defines": [ "__KERNEL__", "MODULE" ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-arm64"
         }
     ],
     "version": 4

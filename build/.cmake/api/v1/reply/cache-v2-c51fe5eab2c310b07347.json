@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/addr2line"
+			"value" : "/usr/bin/aarch64-linux-gnu-addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ar"
+			"value" : "/usr/bin/aarch64-linux-gnu-ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build"
+			"value" : "/home/aa/ubuntu/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "22"
+			"value" : "25"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -92,22 +92,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
-		},
-		{
-			"name" : "CMAKE_COLOR_MAKEFILE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable/Disable color output during build."
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -159,7 +143,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/g++"
+			"value" : "/usr/bin/aarch64-linux-gnu-g++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -175,7 +159,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-11"
+			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ar-12"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -191,7 +175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-11"
+			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ranlib-12"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -287,7 +271,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc"
+			"value" : "/usr/bin/aarch64-linux-gnu-gcc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -303,7 +287,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-11"
+			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ar-12"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -319,7 +303,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-11"
+			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ranlib-12"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -534,6 +518,18 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake."
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/aa/ubuntu/build/CMakeFiles/pkgRedirects"
+		},
+		{
 			"name" : "CMAKE_GENERATOR",
 			"properties" : 
 			[
@@ -543,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Unix Makefiles"
+			"value" : "Ninja"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -591,7 +587,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu"
+			"value" : "/home/aa/ubuntu"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -631,7 +627,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ld"
+			"value" : "/usr/bin/aarch64-linux-gnu-ld"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -643,11 +639,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to a program."
+					"value" : "Program used to build from build.ninja files."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gmake"
+			"value" : "/usr/bin/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -743,7 +739,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/nm"
+			"value" : "/usr/bin/aarch64-linux-gnu-nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -771,7 +767,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/objcopy"
+			"value" : "/usr/bin/aarch64-linux-gnu-objcopy"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -787,7 +783,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/objdump"
+			"value" : "/usr/bin/aarch64-linux-gnu-objdump"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -838,66 +834,6 @@
 			"value" : "MainProject"
 		},
 		{
-			"name" : "CMAKE_PROJECT_VERSION",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "0.3"
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "0"
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_MINOR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "3"
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_PATCH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_TWEAK",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : ""
-		},
-		{
 			"name" : "CMAKE_RANLIB",
 			"properties" : 
 			[
@@ -911,7 +847,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ranlib"
+			"value" : "/usr/bin/aarch64-linux-gnu-ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -927,7 +863,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/readelf"
+			"value" : "/usr/bin/aarch64-linux-gnu-readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -939,7 +875,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/share/cmake-3.22"
+			"value" : "/usr/share/cmake-3.25"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1147,7 +1083,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/strip"
+			"value" : "/usr/bin/aarch64-linux-gnu-strip"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1187,7 +1123,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build"
+			"value" : "/home/aa/ubuntu/build"
 		},
 		{
 			"name" : "MainProject_IS_TOP_LEVEL",
@@ -1211,7 +1147,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu"
+			"value" : "/home/aa/ubuntu"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		},
 		{
 			"name" : "bookSql_BINARY_DIR",
@@ -1223,7 +1171,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery"
+			"value" : "/home/aa/ubuntu/build/sqlQuery"
 		},
 		{
 			"name" : "bookSql_IS_TOP_LEVEL",
@@ -1247,7 +1195,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/sqlQuery"
+			"value" : "/home/aa/ubuntu/sqlQuery"
 		},
 		{
 			"name" : "bowling_BINARY_DIR",
@@ -1259,7 +1207,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/bowling"
+			"value" : "/home/aa/ubuntu/build/bowling"
 		},
 		{
 			"name" : "bowling_IS_TOP_LEVEL",
@@ -1283,7 +1231,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/bowling"
+			"value" : "/home/aa/ubuntu/bowling"
 		},
 		{
 			"name" : "carSerial_BINARY_DIR",
@@ -1295,7 +1243,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part3/carSerial"
+			"value" : "/home/aa/ubuntu/build/part3/carSerial"
 		},
 		{
 			"name" : "carSerial_IS_TOP_LEVEL",
@@ -1319,7 +1267,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part3/carSerial"
+			"value" : "/home/aa/ubuntu/part3/carSerial"
 		},
 		{
 			"name" : "date_BINARY_DIR",
@@ -1331,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part3/date"
+			"value" : "/home/aa/ubuntu/build/part3/date"
 		},
 		{
 			"name" : "date_IS_TOP_LEVEL",
@@ -1355,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part3/date"
+			"value" : "/home/aa/ubuntu/part3/date"
 		},
 		{
 			"name" : "myRandom_BINARY_DIR",
@@ -1367,7 +1315,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part3/myRandom"
+			"value" : "/home/aa/ubuntu/build/part3/myRandom"
 		},
 		{
 			"name" : "myRandom_IS_TOP_LEVEL",
@@ -1391,7 +1339,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part3/myRandom"
+			"value" : "/home/aa/ubuntu/part3/myRandom"
 		},
 		{
 			"name" : "myString_BINARY_DIR",
@@ -1403,7 +1351,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part3/string"
+			"value" : "/home/aa/ubuntu/build/part3/string"
 		},
 		{
 			"name" : "myString_IS_TOP_LEVEL",
@@ -1427,43 +1375,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part3/string"
-		},
-		{
-			"name" : "opensse-schemes_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part3"
-		},
-		{
-			"name" : "opensse-schemes_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "OFF"
-		},
-		{
-			"name" : "opensse-schemes_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part3"
+			"value" : "/home/aa/ubuntu/part3/string"
 		},
 		{
 			"name" : "part1_BINARY_DIR",
@@ -1475,7 +1387,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part1"
+			"value" : "/home/aa/ubuntu/build/part1"
 		},
 		{
 			"name" : "part1_IS_TOP_LEVEL",
@@ -1499,7 +1411,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part1"
+			"value" : "/home/aa/ubuntu/part1"
 		},
 		{
 			"name" : "part2_BINARY_DIR",
@@ -1511,7 +1423,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part2"
+			"value" : "/home/aa/ubuntu/build/part2"
 		},
 		{
 			"name" : "part2_IS_TOP_LEVEL",
@@ -1535,7 +1447,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part2"
+			"value" : "/home/aa/ubuntu/part2"
 		},
 		{
 			"name" : "part3_BINARY_DIR",
@@ -1547,7 +1459,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build/part3"
+			"value" : "/home/aa/ubuntu/build/part3"
 		},
 		{
 			"name" : "part3_IS_TOP_LEVEL",
@@ -1571,43 +1483,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/part3"
-		},
-		{
-			"name" : "ubuntu_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu/build"
-		},
-		{
-			"name" : "ubuntu_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "ubuntu_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/ghfjdhdl/Desktop/ubuntu"
+			"value" : "/home/aa/ubuntu/part3"
 		}
 	],
 	"kind" : "cache",

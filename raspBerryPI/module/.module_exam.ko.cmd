@@ -1,0 +1,1 @@
+savedcmd_/home/aa/ubuntu/raspBerryPI/module/module_exam.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/aa/ubuntu/raspBerryPI/module/module_exam.ko /home/aa/ubuntu/raspBerryPI/module/module_exam.o /home/aa/ubuntu/raspBerryPI/module/module_exam.mod.o;  true

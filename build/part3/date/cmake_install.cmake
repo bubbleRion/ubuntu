@@ -1,4 +1,4 @@
-# Install script for directory: /home/ghfjdhdl/Desktop/ubuntu/part3/date
+# Install script for directory: /home/aa/ubuntu/part3/date
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/aarch64-linux-gnu-objdump")
 endif()
 

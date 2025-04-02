@@ -1,4 +1,4 @@
-# Install script for directory: /home/ghfjdhdl/Desktop/ubuntu
+# Install script for directory: /home/aa/ubuntu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,16 +39,16 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/aarch64-linux-gnu-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ghfjdhdl/Desktop/ubuntu/build/bowling/cmake_install.cmake")
-  include("/home/ghfjdhdl/Desktop/ubuntu/build/sqlQuery/cmake_install.cmake")
-  include("/home/ghfjdhdl/Desktop/ubuntu/build/part1/cmake_install.cmake")
-  include("/home/ghfjdhdl/Desktop/ubuntu/build/part2/cmake_install.cmake")
-  include("/home/ghfjdhdl/Desktop/ubuntu/build/part3/cmake_install.cmake")
+  include("/home/aa/ubuntu/build/bowling/cmake_install.cmake")
+  include("/home/aa/ubuntu/build/sqlQuery/cmake_install.cmake")
+  include("/home/aa/ubuntu/build/part1/cmake_install.cmake")
+  include("/home/aa/ubuntu/build/part2/cmake_install.cmake")
+  include("/home/aa/ubuntu/build/part3/cmake_install.cmake")
 
 endif()
 
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ghfjdhdl/Desktop/ubuntu/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/aa/ubuntu/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,1 @@
+savedcmd_/home/aa/ubuntu/raspBerryPI/module/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/aa/ubuntu/raspBerryPI/module/Module.symvers -T /home/aa/ubuntu/raspBerryPI/module/modules.order -i Module.symvers -e 
