@@ -36,14 +36,14 @@ MODULE_INFO(retpoline, "Y");
 static const struct modversion_info ____versions[]
 __used __section("__versions") = {
 	{ 0x122c3a7e, "_printk" },
-	{ 0xfe990052, "gpio_free" },
 	{ 0x47229b5c, "gpio_request" },
 	{ 0xb0d2a97, "gpio_to_desc" },
 	{ 0xb161b235, "gpiod_direction_output_raw" },
+	{ 0xfe990052, "gpio_free" },
 	{ 0x67a35d9, "module_layout" },
 };
 
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "955D200712314B2E523B917");
+MODULE_INFO(srcversion, "EF49E18C7A1E9D98AECE71F");

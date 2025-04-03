@@ -25,7 +25,7 @@ rule CUSTOM_COMMAND
 rule C_COMPILER__bowling_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/arm-linux-gnueabihf-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -33,7 +33,7 @@ rule C_COMPILER__bowling_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__bowling_Debug
-  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /usr/bin/arm-linux-gnueabihf-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -44,7 +44,7 @@ rule C_EXECUTABLE_LINKER__bowling_Debug
 rule C_COMPILER__bookSql_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/arm-linux-gnueabihf-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -52,7 +52,7 @@ rule C_COMPILER__bookSql_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__bookSql_Debug
-  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /usr/bin/arm-linux-gnueabihf-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -63,7 +63,7 @@ rule C_EXECUTABLE_LINKER__bookSql_Debug
 rule C_COMPILER__carSerial_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/arm-linux-gnueabihf-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -71,7 +71,7 @@ rule C_COMPILER__carSerial_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__carSerial_Debug
-  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /usr/bin/arm-linux-gnueabihf-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -82,7 +82,7 @@ rule C_EXECUTABLE_LINKER__carSerial_Debug
 rule C_COMPILER__date_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/arm-linux-gnueabihf-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -90,7 +90,7 @@ rule C_COMPILER__date_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__date_Debug
-  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /usr/bin/arm-linux-gnueabihf-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -101,7 +101,7 @@ rule C_EXECUTABLE_LINKER__date_Debug
 rule C_COMPILER__myRandom_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/arm-linux-gnueabihf-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -109,7 +109,7 @@ rule C_COMPILER__myRandom_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__myRandom_Debug
-  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /usr/bin/arm-linux-gnueabihf-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -120,7 +120,7 @@ rule C_EXECUTABLE_LINKER__myRandom_Debug
 rule C_COMPILER__myString_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/aarch64-linux-gnu-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /usr/bin/arm-linux-gnueabihf-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -128,7 +128,7 @@ rule C_COMPILER__myString_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__myString_Debug
-  command = $PRE_LINK && /usr/bin/aarch64-linux-gnu-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /usr/bin/arm-linux-gnueabihf-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 

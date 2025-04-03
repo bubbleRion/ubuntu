@@ -10,18 +10,17 @@
 				{
 					"includeDirectories" : 
 					[
-						"/usr/lib/gcc/aarch64-linux-gnu/12/include",
-						"/usr/local/include",
-						"/usr/include/aarch64-linux-gnu",
+						"/usr/lib/gcc-cross/arm-linux-gnueabihf/12/include",
+						"/usr/arm-linux-gnueabihf/include",
+						"/usr/include/arm-linux-gnueabihf",
 						"/usr/include"
 					],
 					"linkDirectories" : 
 					[
-						"/usr/lib/gcc/aarch64-linux-gnu/12",
-						"/usr/lib/aarch64-linux-gnu",
-						"/usr/lib",
-						"/lib/aarch64-linux-gnu",
-						"/lib"
+						"/usr/lib/gcc-cross/arm-linux-gnueabihf/12",
+						"/usr/arm-linux-gnueabihf/lib",
+						"/lib/arm-linux-gnueabihf",
+						"/usr/lib/arm-linux-gnueabihf"
 					],
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : 
@@ -33,7 +32,7 @@
 						"gcc_s"
 					]
 				},
-				"path" : "/usr/bin/aarch64-linux-gnu-gcc",
+				"path" : "/usr/bin/arm-linux-gnueabihf-gcc",
 				"version" : "12.2.0"
 			},
 			"language" : "C",
@@ -79,7 +78,7 @@
 						"gcc"
 					]
 				},
-				"path" : "/usr/bin/aarch64-linux-gnu-g++",
+				"path" : "/usr/bin/c++",
 				"version" : "12.2.0"
 			},
 			"language" : "CXX",

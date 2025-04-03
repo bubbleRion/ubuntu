@@ -19,9 +19,9 @@ int main(void)
     int servo_90 = 307;
     int servo_180 = 512;
 
-    wiringPiI2CWriteReg16(rgb_servo_fd, PCA9685_LED_ON_L + 12, 0);     // 빨간색
+    wiringPiI2CWriteReg16(rgb_servo_fd, PCA9685_LED_ON_L + 12, 0);       // 빨간색
     wiringPiI2CWriteReg16(rgb_servo_fd, PCA9685_LED_ON_L + 14, servo_0); // 녹색
-    wiringPiI2CWriteReg16(rgb_servo_fd, PCA9685_LED_ON_L + 16, 0); // 녹색
+    wiringPiI2CWriteReg16(rgb_servo_fd, PCA9685_LED_ON_L + 16, 0);       // 녹색
     wiringPiI2CWriteReg16(rgb_servo_fd, PCA9685_LED_ON_L + 18, servo_0); // 파란색
     delay(1000);
 
@@ -35,7 +35,6 @@ int main(void)
 
     wiringPiI2CWriteReg16(rgb_servo_fd, PCA9685_LED_ON_L + 14, 0); // 녹색
     wiringPiI2CWriteReg16(rgb_servo_fd, PCA9685_LED_ON_L + 18, 0); // 파란색
-    
 
     return 0;
 }

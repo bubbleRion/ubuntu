@@ -1,1 +1,0 @@
-/usr/bin/gcc -g -rdynamic CMakeFiles/bookSql.dir/sqlQuery/bookSql.c.o -o bookSql   -L/usr/include/mysql  -Wl,-rpath,/usr/include/mysql -lmysqlclient 

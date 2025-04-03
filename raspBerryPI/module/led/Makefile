@@ -7,10 +7,7 @@ default:
 	$(MAKE) -C $(KDIR) M=$(PWD) modules
 
 clean:
-	rm -f *.ko
-	rm -f *.o
-	rm -f *.mod.*
-	rm -f .*.cmd
+	$(MAKE) -C $(KDIR) M=$(PWD) clean
 
 
 # TARGET = helloRaspberry switch_led device_gpio interrupt

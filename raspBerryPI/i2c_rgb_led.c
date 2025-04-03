@@ -4,13 +4,12 @@
 #include <wiringPi.h>
 #include <wiringPiI2C.h>
 
-
 #define RGB_SERVO_I2C_ADDR 0x5e
 #define PCA9685_LED_ON_L 0x06
 #define PCA9685_PRESCALE 0xFE
 #define PCA9685_MODE1 0x00
 
-//switch
+// switch
 #define SW1 4
 #define SW2 17
 #define SW3 27

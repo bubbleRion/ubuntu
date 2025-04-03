@@ -5,16 +5,19 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/usr/include/**",
-                "/lib/modules/6.6.51+rpt-rpi-2712/source/include",
-                "/usr/src/linux-headers-6.6.51+rpt-rpi-2712/arch/arm64/include/generated",
-                "/usr/src/linux-headers-6.6.51+rpt-rpi-2712/include",
+                "/lib/modules/6.6.51+rpt-rpi-v8/source/include",
+                "/usr/src/linux-headers-6.6.51+rpt-rpi-v8//arch/arm64/include/generated",
+                "/usr/src/linux-headers-6.6.51+rpt-rpi-v8//include",
                 "/usr/src/linux-headers-6.6.51+rpt-common-rpi/arch/arm64/include"
             ],
-            "defines": [ "__KERNEL__", "MODULE" ],
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c17",
-            "cppStandard": "gnu++17",
-            "intelliSenseMode": "linux-gcc-arm64"
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4

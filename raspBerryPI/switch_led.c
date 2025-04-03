@@ -15,6 +15,7 @@
 
 int main(void)
 {
+
     wiringPiSetupGpio(); // BCM 기준 gpio 핀번호
 
     int led[4] = {LED1, LED2, LED3, LED4};

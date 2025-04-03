@@ -1,62 +1,62 @@
 [
 {
   "directory": "/home/aa/ubuntu/build",
-  "command": "/usr/bin/aarch64-linux-gnu-gcc -I/home/aa/ubuntu/bowling/include -I/usr/include/mysql -g -o bowling/CMakeFiles/bowling.dir/src/bowling.c.o -c /home/aa/ubuntu/bowling/src/bowling.c",
+  "command": "/usr/bin/arm-linux-gnueabihf-gcc -I/home/aa/ubuntu/bowling/include -I/usr/include/mysql -g -o bowling/CMakeFiles/bowling.dir/src/bowling.c.o -c /home/aa/ubuntu/bowling/src/bowling.c",
   "file": "/home/aa/ubuntu/bowling/src/bowling.c"
 },
 {
   "directory": "/home/aa/ubuntu/build",
-  "command": "/usr/bin/aarch64-linux-gnu-gcc -I/home/aa/ubuntu/bowling/include -I/usr/include/mysql -g -o bowling/CMakeFiles/bowling.dir/src/main.c.o -c /home/aa/ubuntu/bowling/src/main.c",
+  "command": "/usr/bin/arm-linux-gnueabihf-gcc -I/home/aa/ubuntu/bowling/include -I/usr/include/mysql -g -o bowling/CMakeFiles/bowling.dir/src/main.c.o -c /home/aa/ubuntu/bowling/src/main.c",
   "file": "/home/aa/ubuntu/bowling/src/main.c"
 },
 {
   "directory": "/home/aa/ubuntu/build",
-  "command": "/usr/bin/aarch64-linux-gnu-gcc -I/home/aa/ubuntu/sqlQuery/include -I/usr/include/mysql -g -o sqlQuery/CMakeFiles/bookSql.dir/src/bookSql.c.o -c /home/aa/ubuntu/sqlQuery/src/bookSql.c",
+  "command": "/usr/bin/arm-linux-gnueabihf-gcc -I/home/aa/ubuntu/sqlQuery/include -I/usr/include/mysql -g -o sqlQuery/CMakeFiles/bookSql.dir/src/bookSql.c.o -c /home/aa/ubuntu/sqlQuery/src/bookSql.c",
   "file": "/home/aa/ubuntu/sqlQuery/src/bookSql.c"
 },
 {
   "directory": "/home/aa/ubuntu/build",
-  "command": "/usr/bin/aarch64-linux-gnu-gcc -I/home/aa/ubuntu/sqlQuery/include -I/usr/include/mysql -g -o sqlQuery/CMakeFiles/bookSql.dir/src/main.c.o -c /home/aa/ubuntu/sqlQuery/src/main.c",
+  "command": "/usr/bin/arm-linux-gnueabihf-gcc -I/home/aa/ubuntu/sqlQuery/include -I/usr/include/mysql -g -o sqlQuery/CMakeFiles/bookSql.dir/src/main.c.o -c /home/aa/ubuntu/sqlQuery/src/main.c",
   "file": "/home/aa/ubuntu/sqlQuery/src/main.c"
 },
 {
   "directory": "/home/aa/ubuntu/build",
-  "command": "/usr/bin/aarch64-linux-gnu-gcc -g -o part3/carSerial/CMakeFiles/carSerial.dir/main.c.o -c /home/aa/ubuntu/part3/carSerial/main.c",
+  "command": "/usr/bin/arm-linux-gnueabihf-gcc -g -o part3/carSerial/CMakeFiles/carSerial.dir/main.c.o -c /home/aa/ubuntu/part3/carSerial/main.c",
   "file": "/home/aa/ubuntu/part3/carSerial/main.c"
 },
 {
   "directory": "/home/aa/ubuntu/build",
-  "command": "/usr/bin/aarch64-linux-gnu-gcc -g -o part3/carSerial/CMakeFiles/carSerial.dir/serial.c.o -c /home/aa/ubuntu/part3/carSerial/serial.c",
+  "command": "/usr/bin/arm-linux-gnueabihf-gcc -g -o part3/carSerial/CMakeFiles/carSerial.dir/serial.c.o -c /home/aa/ubuntu/part3/carSerial/serial.c",
   "file": "/home/aa/ubuntu/part3/carSerial/serial.c"
 },
 {
   "directory": "/home/aa/ubuntu/build",
-  "command": "/usr/bin/aarch64-linux-gnu-gcc -g -o part3/date/CMakeFiles/date.dir/main.c.o -c /home/aa/ubuntu/part3/date/main.c",
+  "command": "/usr/bin/arm-linux-gnueabihf-gcc -g -o part3/date/CMakeFiles/date.dir/main.c.o -c /home/aa/ubuntu/part3/date/main.c",
   "file": "/home/aa/ubuntu/part3/date/main.c"
 },
 {
   "directory": "/home/aa/ubuntu/build",
-  "command": "/usr/bin/aarch64-linux-gnu-gcc -g -o part3/date/CMakeFiles/date.dir/date.c.o -c /home/aa/ubuntu/part3/date/date.c",
+  "command": "/usr/bin/arm-linux-gnueabihf-gcc -g -o part3/date/CMakeFiles/date.dir/date.c.o -c /home/aa/ubuntu/part3/date/date.c",
   "file": "/home/aa/ubuntu/part3/date/date.c"
 },
 {
   "directory": "/home/aa/ubuntu/build",
-  "command": "/usr/bin/aarch64-linux-gnu-gcc -g -o part3/myRandom/CMakeFiles/myRandom.dir/main.c.o -c /home/aa/ubuntu/part3/myRandom/main.c",
+  "command": "/usr/bin/arm-linux-gnueabihf-gcc -g -o part3/myRandom/CMakeFiles/myRandom.dir/main.c.o -c /home/aa/ubuntu/part3/myRandom/main.c",
   "file": "/home/aa/ubuntu/part3/myRandom/main.c"
 },
 {
   "directory": "/home/aa/ubuntu/build",
-  "command": "/usr/bin/aarch64-linux-gnu-gcc -g -o part3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o -c /home/aa/ubuntu/part3/myRandom/myRandom.c",
+  "command": "/usr/bin/arm-linux-gnueabihf-gcc -g -o part3/myRandom/CMakeFiles/myRandom.dir/myRandom.c.o -c /home/aa/ubuntu/part3/myRandom/myRandom.c",
   "file": "/home/aa/ubuntu/part3/myRandom/myRandom.c"
 },
 {
   "directory": "/home/aa/ubuntu/build",
-  "command": "/usr/bin/aarch64-linux-gnu-gcc -g -o part3/string/CMakeFiles/myString.dir/main.c.o -c /home/aa/ubuntu/part3/string/main.c",
+  "command": "/usr/bin/arm-linux-gnueabihf-gcc -g -o part3/string/CMakeFiles/myString.dir/main.c.o -c /home/aa/ubuntu/part3/string/main.c",
   "file": "/home/aa/ubuntu/part3/string/main.c"
 },
 {
   "directory": "/home/aa/ubuntu/build",
-  "command": "/usr/bin/aarch64-linux-gnu-gcc -g -o part3/string/CMakeFiles/myString.dir/myString.c.o -c /home/aa/ubuntu/part3/string/myString.c",
+  "command": "/usr/bin/arm-linux-gnueabihf-gcc -g -o part3/string/CMakeFiles/myString.dir/myString.c.o -c /home/aa/ubuntu/part3/string/myString.c",
   "file": "/home/aa/ubuntu/part3/string/myString.c"
 }
 ]
