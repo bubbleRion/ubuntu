@@ -1,11 +1,9 @@
+TARGET = helloRaspberry switch_led interrupt soft_tone_buzzer hard_tone_buzzer i2c_rgb_led i2c_rgb_led_switch i2c_servo device_gpio
+all : ${TARGET}
+CFLAGS = -lwiringPi
 
+% : %.c
+	cc -o $@ $< ${CFLAGS}
 
-TARGET = helloRasp switch_led device_gpio test interrupt hard_tone_buzzer i2c_rgb_led soft_tone_buzzer quest_i2c_rgb i2c_servo
-LEGACY = -lwiringPi
-all: ${TARGET}
-
-${TARGET} : $@ ${LEGACY}
-
-
-clean:
+clean :
 	rm ${TARGET}

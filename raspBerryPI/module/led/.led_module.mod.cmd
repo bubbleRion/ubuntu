@@ -1,1 +1,0 @@
-savedcmd_/home/aa/ubuntu/raspBerryPI/module/led/led_module.mod := printf '%s\n'   led_module.o | awk '!x[$$0]++ { print("/home/aa/ubuntu/raspBerryPI/module/led/"$$0) }' > /home/aa/ubuntu/raspBerryPI/module/led/led_module.mod

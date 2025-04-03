@@ -1,0 +1,1 @@
+savedcmd_/home/aa/ubuntu/raspBerryPI/module/led_switch_driver/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/aa/ubuntu/raspBerryPI/module/led_switch_driver/Module.symvers -T /home/aa/ubuntu/raspBerryPI/module/led_switch_driver/modules.order -i Module.symvers -e 
